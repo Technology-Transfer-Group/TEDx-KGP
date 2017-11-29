@@ -1,0 +1,46 @@
+{
+	"data": [
+		{
+			"name": "Atul Kulkarni",
+			"short": "Actor",
+			"long": "National award winning actor",
+			"desc": "President, QUEST, a research organisation dedicated to enhance the quality of education in our country. A prominent actor who has acted in Hindi, Tamil, Malayalam, Telugu, Kannada, Marathi and English language films, and won the national award for the best supporting actor for the films \"Hey Ram\" and \"Chandni Bar\". He has also acted in recent blockbuster movies like Raees and the Ghazi attack. He has also done some great philanthropic work and has improved the experience of education within the tribal areas through his organisation.",
+			"image": "atul.jpg"
+		},
+		{
+			"name": "Nirali Kartik",
+			"short": "Vocalist",
+			"long": "Vocalist, Maati Baani",
+			"desc": "Maati Baani is an international music band combining elements of Hindustani Classical with various styles of Folk music and new age sounds. An initiative by Nirali Kartik and Kartik Shah, who started the chain of music videos, shot in vivid cultural landscapes and sung in different languages of the world, which have received millions of views on YouTube. They produce original compositions in collaboration with various global artists. They believe that music is the greatest force in bringing people together and is a great way to celebrate the diversities of the wonder that humanity is.",
+			"image": "nirali.jpg"
+		},
+		{
+			"name": "Irshad Kamil",
+			"short": "Lyricist",
+			"long": "Lyricist, Filmfare Awardee",
+			"desc": "A lyricist having command on all genres, and his wordplay smoothly travels the terrains of Life, Philosophy, Romance, Patriotism, Sensuousness, and Sufism. He has won many awards including 3 Filmfares. Having written lyrics for films like Tamasha, Rockstar, Raanjhana, Sultan, etc., he is an engrossing litterateur. He has also penned his thoughts on paper in his 3 books spread across genres of drama, critic and poetry. He's a lyricist, a writer and now about to make his directional debut.",
+			"image": "irshad.jpg"
+		},
+		{
+			"name": "Ulrike Reinhard",
+			"short": "Social Activist",
+			"long": "Social Activist, Founder - Janwaar Castle",
+			"desc": "Being a native German and having traveled to more than 100 countries over last 20 years, Ulrike reformed a small village of about thousand people, a region otherwise marred with issues like untouchability, gender inequality, illiteracy, and alcoholism. Her other notable work includes DNAdigital, a initiative in Germany aimed to foster dialogue between the 'Internet Generation' and business leaders. She has also published Reboot_D - Digital Democracy about the way the internet is shaping and transforming society and politics in Germany.",
+			"image": "ulrike.jpg"
+		},
+		{
+			"name": "Gaurav Juyal",
+			"short": "Artist",
+			"long": "Artist, Disney's Art Attack",
+			"desc": "Gaurav Juyal is a creative artist. He hosted Walt Disney’s show Art Attack which teaches kids to recycle household waste to create art and craft. He got specialization in Animation Film Design from National Institute of Design, Ahmedabad. He is the co-founder of ‘thoughts and bolts’, a team of artists who work with children to develop new learning methods.",
+			"image": "gaurav.jpg"
+		},
+		{
+			"name": "Devina Kothari",
+			"short": "Industrial Designer",
+			"long": "Innovator- Public health, Industrial Designer",
+			"desc": "Most famous for developing and designing a device which can make the delivery of insulin virtually pain free and simpler for diabetics, Devina Kothari has marked her mettle in design innovations in global business. Her innovations in the fields ranging from Agriculture, Architecture, Automotive, Consumer Goods, and Interior Design to Healthcare have been globally recognized. She is a winner of ‘The Red Dot prize’ (2014) for innovative Insulin Delivery System and the 'I Design Award' (2014-2015), for Cornea Care.",
+			"image": "devina.jpg"
+		}
+	]
+}
