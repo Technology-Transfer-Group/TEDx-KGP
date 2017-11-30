@@ -53,8 +53,10 @@ window.onhashchange = function() {
 
 function hashUp() {
     var hrf = location.hash
-    $('.scrollable').parent().removeClass('active')
-    $('.nav-link[href="' + hrf + '"]').parent().addClass('active')
+    if (hrf) {
+        $('.scrollable').parent().removeClass('active')
+        $('.nav-link[href="' + hrf + '"]').parent().addClass('active')
+    }
 }
 
 window.onscroll = function() {
