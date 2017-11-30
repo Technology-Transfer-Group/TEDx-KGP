@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#a51e15" />
+    <title>TEDxIITKharagpur | 2018</title>
+    <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="public/css/team.css">
+</head>
+<body ng-app="app">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark gallNav">
+        <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapseNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#themeDiv">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#getInvolved">Get Involved</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+                <li class="nav-item media-icons">
+                    <a class="nav-link" href="https://www.facebook.com/TEDxIITKharagpur/">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item media-icons">
+                    <a class="nav-link" href="https://www.linkedin.com/company/13225447/">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item media-icons">
+                    <a class="nav-link" href="https://www.instagram.com/tedxiitkharagpur/?hl=en">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="padding-top:5em; " ng-controller="teamController">
+        <h1>The Curator</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-md-offset-9">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="public/images/team/himesh.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Himesh Kothari</h3>
+                        <span class="post">Curator</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/himesh.kothari1" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/himeshkothari/" target="_blank" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>The Core Team</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in team | orderBy:'name'">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="public/images/team/{{m.image}}">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
+                        <ul class="social">
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>The Web and Design Team</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="public/images/team/sumugan.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Sumugan Swaroop</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/sumugan.swaroop.7" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/sumugan-swaroop-765769109/" target="_blank" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="col-md-3 col-sm-12">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="public/images/team/samya.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Samya Samanta</h3>
+                        <span class="post">Creative Head</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/samya.pequena" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/samya-samanta-8779a0109/" target="_blank" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footer">
+        <div class="col-sm-12 col-md-4">
+            <h4>Important Links</h4>
+            <a target="_blank" href="https://www.ted.com/">TED</a><br>
+            <a target="_blank" href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a><br>
+            <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <h4>Curator</h4>
+            <span>Himesh Kothari</span><br>
+            <span>+91-9933985607</span><br>
+            <a target="_blank" href="mailto:himesh.dec28@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a target="_blank" href="https://www.facebook.com/himesh.kothari1"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/himeshkothari/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799" height="125" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <h6>&nbsp;&nbsp;&nbsp;&copy; This independent TEDx event is operated under license from TED.</h6>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="external/js/jquery.min.js"></script>
+    <script type="text/javascript" src="external/js/popper.min.js"></script>
+    <script type="text/javascript" src="external/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="external/js/angular.min.js"></script>
+    <script type="text/javascript" src="public/js/index.js"></script>
+</body>
+</html>

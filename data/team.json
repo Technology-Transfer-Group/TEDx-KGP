@@ -1,0 +1,81 @@
+{
+	"data": [
+		{
+			"name": "Prasanna Patil",
+			"fb": "https://www.facebook.com/i.am.spidermannn",
+			"linkedin": "https://www.linkedin.com/in/prasanna-patil-133334139/%5C",
+			"des": "Core Organising Member",
+			"image": "prasanna.jpg"
+		},
+		{
+			"name": "Gaurav Agarwal",
+			"fb": "https://www.facebook.com/gaurav.agarwal.7545",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/gaurav-agarwal-che/",
+			"image": "gaurav.jpg"
+		},
+		{
+			"name": "Sharayu Dhoke",
+			"fb": "https://www.facebook.com/sharayu.dhoke",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/sharayu-dhoke-57895a109/%5C",
+			"image": "sharayu.jpg"
+		},
+		{
+			"name": "Hitendri Bomble",
+			"fb": "https://www.facebook.com/hitendri.bomble",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/hitendri-bomble-14b4b0111",
+			"image": "hitendri.jpg"
+		},
+		{
+			"name": "Siddhant Karhadkar",
+			"fb": "https://www.facebook.com/sid.karhadkar",
+			"des": "Core Organising Member",
+			"linkedin": "https://in.linkedin.com/in/siddhant-karhadkar-a70a3810b",
+			"image": "sid.jpg"
+		},
+		{
+			"name": "Parbhat Jotian",
+			"fb": "https://www.facebook.com/parbhat.jotian",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/parbhat-jotian-7b9962121/",
+			"image": "parbhat.jpg"
+		},
+		{
+			"name": "Anay Dongre",
+			"fb": "https://www.facebook.com/anay.dongre",
+			"des": "Core Organising Member",
+			"linkedin": "www.linkedin.com/in/anay-dongre",
+			"image": "anay.jpg"
+		},
+		{
+			"name": "Pourush Sood",
+			"fb": "https://www.facebook.com/pourush.sood",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/pourush-sood-016831126/",
+			"image": "pourush.jpg"
+		},
+		{
+			"name": "Praneesh Pal",
+			"fb": "https://www.facebook.com/praneesh.pal",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/praneesh-pal-707354120/",
+			"image": "praneesh.jpg"
+		},
+		{
+			"name": "Niharika Patnam",
+			"fb": "https://www.facebook.com/patnam.niharika",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/patnam-niharika-54a2b2106/",
+			"image": "niharika.jpg"
+		},
+		{
+			"name": "Shravesh Jain",
+			"fb": "https://www.facebook.com/tryandbeat",
+			"des": "Core Organising Member",
+			"linkedin": "https://www.linkedin.com/in/shravesh-jain-794ba6102/",
+			"image": "shravesh.jpg"
+		}
+	]
+}
