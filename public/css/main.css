@@ -373,6 +373,14 @@ body {
 	.modal-dialog {
 		max-width: 95vw;
 	}
+
+	.topNav {
+		background: #000 !important;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
 }
 
 /*
