@@ -8,6 +8,27 @@
 			"image": "nirali.jpg"
 		},
 		{
+			"name": "Mallika Dutt",
+			"short": "Social Activist",
+			"long": "Indian American Social Rights Activist, Founder & CEO,Breakthrough",
+			"desc": "A leading innovator in human rights, multimedia, and culture change, she is the Founder, President, and CEO of Breakthrough , an organization whose mission is to build a world in which violence against women and girls is unacceptable. She shares her cutting-edge approach to transformation through speaking, writing, commentary and game-changing multimedia campaigns. She has twice been named one of Verve's Top 50 most influential women and has received multiple awards in recognition of her human rights activism. Dutt is also a co-founder SAKHI for South Asian Women, an organization providing community support to end violence against women of South Asian origin.",
+			"image": "mallika.png"
+		},
+		{
+			"name": "Karthick Iyer",
+			"short": "Violinist",
+			"long": "Violinist, Vocalist & Composer, IndoSoul",
+			"desc": "A violinist, vocalist and music composer who started his journey in the mesmerizing world of music at the age of eight. He is the soul behind the IndoSoul music that is fundamentally Indian but universal in approach and appeal. His work is an amalgamation of different instruments and influences. Being a co-artist of artists like A.R. Rahman, Raghu Dixit and many others he himself was a part of many artistic master pieces. The dexterous mixing of different styles is one of the defining characteristics of his music.",
+			"image": "karthik.png"
+		},
+		{
+			"name": "Kailash Satyarthi",
+			"short": "Indian activist",
+			"long": "Indian activist",
+			"desc": "Kailash Satyarthi is a renowned Indian child rights activist and the winner of Nobel Peace Prize in 2014. He is the founder of the Bachpan Bachao Andolan (BBA), an organization dedicated towards the eradication of child labour and rehabilitation of the rescued former child workers. Child labour is a rampant problem in India where millions of young children are engaged in various forms of work instead of attending schools. Satyarthi has been working as a children’s rights activist from the past many years and has liberated over 80,000 child labourers since 1980. Even as a child he was moved by the plight of other children who were made to work by their parents, and wanted to do something for them. He studied to become an electrical engineer but this profession gave him no satisfaction.",
+			"image": "kailash.png"
+		},
+		{
 			"name": "Irshad Kamil",
 			"short": "Lyricist",
 			"long": "Lyricist, Filmfare Awardee",
