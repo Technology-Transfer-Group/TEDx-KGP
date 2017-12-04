@@ -26,7 +26,7 @@
                     <a class="nav-link" href="index.html#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#speakers">Speakers</a>
+                    <a class="nav-link" href="index.html#speakers">Previous Speakers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
@@ -58,7 +58,7 @@
         </div>
     </nav>
     <div class="container" style="padding-top:5em; " ng-controller="teamController">
-        <h1>The Curator</h1>
+        <h1>Curator</h1>
         <div class="row">
             <div class="col-sm-12 col-md-3 col-md-offset-9">
                 <div class="our-team">
@@ -67,16 +67,16 @@
                     </div>
                     <div class="team-content">
                         <h3 class="title">Himesh Kothari</h3>
-                        <span class="post">Curator</span>
                         <ul class="social">
                             <li><a href="https://www.facebook.com/himesh.kothari1" target="_blank" class="fa fa-facebook"></a></li>
                             <li><a href="https://www.linkedin.com/in/himeshkothari/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:himesh.dec28@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <h1>The Core Team</h1>
+        <h1>Core Team</h1>
         <div class="row">
             <div class="col-md-3 col-sm-12" ng-repeat="m in team | orderBy:'name'">
                 <div class="our-team">
@@ -89,12 +89,13 @@
                         <ul class="social">
                             <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
                             <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <h1>The Web and Design Team</h1>
+        <h1>Web and Design Team</h1>
         <div class="row">
             <div class="col-md-3 col-sm-12">
                 <div class="our-team">
@@ -107,6 +108,7 @@
                         <ul class="social">
                             <li><a href="https://www.facebook.com/sumugan.swaroop.7" target="_blank" class="fa fa-facebook"></a></li>
                             <li><a href="https://www.linkedin.com/in/sumugan-swaroop-765769109/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:sumuganswaroop@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -121,6 +123,7 @@
                         <ul class="social">
                             <li><a href="https://www.facebook.com/samya.pequena" target="_blank" class="fa fa-facebook"></a></li>
                             <li><a href="https://www.linkedin.com/in/samya-samanta-8779a0109/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:iamsamya96@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
                 </div>
