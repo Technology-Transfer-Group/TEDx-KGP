@@ -8,6 +8,34 @@
 			"image": "alex.jpg"
 		},
 		{
+			"name": "Armstrong Pame",
+			"short": "IAS Officer",
+			"long": "IAS Officer",
+			"desc": "He is the first IAS officer from Zeme Tribe of the Naga Peoples. He is acclaimed for building a 100-km road famously known as the \"Peoples Road\" connecting Manipur to Nagaland and Assam. In August 2012, he raised INR40 Lakh for this purpose through Facebook page. For his efforts in building road with donation and volunteers he was invited to Facebook headquarters in California. In 2012, he was nominated for CNN-IBN Indian of the Year in Public service category.",
+			"image": "armstrong.jpg"
+		},
+		{
+			"name": "Arunabh Kumar",
+			"short": "Founder, The Viral Fevr",
+			"long": "Founder, The Viral Fever",
+			"desc": "The Viral Fever is an online entertainment network that satirizes Indian politics, movies, lifestyle, social system and concepts etc. He is the incumbent CEO (Chief Experiment Officer) of The Viral Fever Media Labs. After completing his masters in Electrical Engineering from IIT Kharagpur. He joined Shah Rukh Khan's production house Red Chillies Entertainment in an assistant’s position under Farah Khan. He was the assistant director of the Indian movie Om Shanti Om. He has received many awards which include The Economic Times 40 under Forty list for 2016, Fortune Top 40 under 40 list for 2015, and 2016, GQ's List of Most Influential Young Indians for 2015 & 2016, Entrepreneur List of 10 Geniuses Redefining Creativity 2016, Man's World - Men of the Year, 2014, Newsmaker of the Year in 2014 and many more.",
+			"image": "arunabh.jpg"
+		},
+		{
+			"name": "Mayank Shekhar",
+			"short": "Bollywood Critic",
+			"long": "Bollywood Critic",
+			"desc": "He has been a film critic and a national cultural editor with Hindustan Times. Also, he has previously worked under Mumbai Mirror and MiD DAY and he used to write a blog, Fad for Thought, at the Hindustan Times website. He was the head of the features team at Mumbai Mirror for two years and was also a part of the Mid-Day features team for four years. In 2006, Bombay Talkies, a book authored by Shekhar was published by Frog Books. The book is a compilation of film reviews written by Shekhar from 2004 to 2005.Shekhar is a member of the Central Board of Film Certification. In 2004, he was one of 21 recipients of the 5th Young Achievers Awards by the Indo-American Film Society for his work as a film critic. In 2007 he was awarded with the Ramnath Goenka Award for Excellence in Journalism. He currently runs a cinema website called theW14.com. He has authored a bestselling book, Name Place Animal Thing.",
+			"image": "mayank.jpg"
+		},
+		{
+			"name": "Satyajit Bhatkal",
+			"short": "Indian film director",
+			"long": "Indian film director",
+			"desc": "He was a part of the core production team of the landmark Hindi film, Lagaan. He directed India's first theatrically released documentary, 'Chale Chalo' which was instrumental in the making of ‘Lagaan’. The English cut of that film, entitled 'Madness in the Desert' won a National Award and selected for the Locarno Film Festival. He also wrote 'The Spirit of Lagaan', one of the bestsellers of 2003, which was translated into three Indian languages, wrote and directed ‘Zokkomon’, a Bollywood action superhero film, co-produced by Walt Disney Pictures. Also, Satyajit is the man behind the Indian television talk show ‘Satyamev Jayate’ which dared to challenge the accepted norms and the show traversed beyond what was considered safe and guaranteed.",
+			"image": "satyajit.jpg"
+		},
+		{
 			"name": "Mallika Dutt",
 			"short": "Social Activist",
 			"long": "Indian American Social Rights Activist, Founder & CEO,Breakthrough",

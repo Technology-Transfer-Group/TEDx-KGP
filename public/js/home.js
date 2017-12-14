@@ -32,9 +32,9 @@ app.controller('speakersController', function($scope, $http) {
         positions.push(elements[i].offsetTop)
     }
     if (window.innerWidth > 480){
-    	positions[3]+=640
+    	positions[3]+=980
     } else {
-    	positions[3]+=3000
+    	positions[3]+=4000
     }
 })
 
