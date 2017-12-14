@@ -328,6 +328,28 @@ body {
 	color: #eee;
 }
 
+.whitefont:hover {
+	color: #eee;
+}
+
+.appBtn {
+	background-color: rgb(230,43,30);
+	outline: none;
+	border: none;
+	color: #fff;
+	padding: 10px 60px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 2px 4px grey;
+	font-size: 1.3rem;
+	transition: all 0.3s ease;
+}
+
+.appBtn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 2px 8px grey;
+}
+
 #partin {
 	margin: 0;
 	padding: 70px 40px 50px 40px;
@@ -341,7 +363,7 @@ body {
 }
 
 #spekin {
-	background: url(../images/gallery/1.jpg) no-repeat center center fixed;
+	background: url(../images/speakersTEDx.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
