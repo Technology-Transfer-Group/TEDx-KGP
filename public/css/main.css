@@ -84,11 +84,11 @@
 #footer {
 	margin-top: 50px;
 	padding: 30px 20px;
-	background-color: #333;
+	background-color: #000;
 }
 
 #footer a {
-	color: #fef;
+	color: #eee;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
