@@ -5,84 +5,96 @@
 			"short": "Entrepreneur",
 			"long": "Entrepreneur, President & Co-founder of Embrace Innovations",
 			"desc": "Listed in World’s Top 35 Innovators under the age of 35, Rahul Panicker is the president and co-founder of Embrace Innovations. He along with a few other fellow graduates created an infant incubator which costs less than 1% of a traditional incubator and works without electricity. This product is being distributed and used in many rural areas and is saving lives of premature and low-weight babies. An alumnus of IIT Madras and Stanford University, he has been awarded \"Schwab Foundation Social Entrepreneur of the Year 2013\" award, \"The Economist Innovation Award for Social and Economic Innovation\" and the \"International Design Excellence Awards (IDEA) - 2012\"",
-			"image": "alex.jpg"
+			"image": "alex.jpg",
+			"rank": "92"
 		},
 		{
 			"name": "Armstrong Pame",
 			"short": "IAS Officer",
 			"long": "IAS Officer",
 			"desc": "He is the first IAS officer from Zeme Tribe of the Naga Peoples. He is acclaimed for building a 100-km road famously known as the \"Peoples Road\" connecting Manipur to Nagaland and Assam. In August 2012, he raised INR40 Lakh for this purpose through Facebook page. For his efforts in building road with donation and volunteers he was invited to Facebook headquarters in California. In 2012, he was nominated for CNN-IBN Indian of the Year in Public service category.",
-			"image": "armstrong.jpg"
+			"image": "armstrong.jpg",
+			"rank": "7"
 		},
 		{
 			"name": "Bikash Barai",
 			"short": "Co-Founder FireCompass",
 			"long": "Co-Founder FireCompass",
 			"desc": "Barai has done double B.Tech and master’s from Indian Institute of Technology (IIT), Kharagpur in computer science (Hons) as well as architecture. He is passionate about artificial intelligence, cognitive hacking and attack simulation. He is credited for several innovations in the domain of IT Security and has multiple patents in USPTO under his name.He is the founder of iViZ Security an information security company funded by IDG Ventures. The company got acquired by Cigital Inc in 2014. He has received recognition from organizations like UC Berkeley, Intel, Nasscom, Red Herring, TiE, Fortune 40-under-40 in India, etc. Also, he actively pursues painting and magic and has spoken at various forums like the University of California, Berkeley, Nasscom, DSCI, CISO Platform, NUS Singapore, TiE, TEDx IIM, TEDx IIT, etc.",
-			"image": "bikash.jpg"
+			"image": "bikash.jpg",
+			"rank": "91"
 		},
 		{
 			"name": "Mayank Shekhar",
 			"short": "Bollywood Critic",
 			"long": "Bollywood Critic",
 			"desc": "He has been a film critic and a national cultural editor with Hindustan Times. Also, he has previously worked under Mumbai Mirror and MiD DAY and he used to write a blog, Fad for Thought, at the Hindustan Times website. He was the head of the features team at Mumbai Mirror for two years and was also a part of the Mid-Day features team for four years. In 2006, Bombay Talkies, a book authored by Shekhar was published by Frog Books. The book is a compilation of film reviews written by Shekhar from 2004 to 2005.Shekhar is a member of the Central Board of Film Certification. In 2004, he was one of 21 recipients of the 5th Young Achievers Awards by the Indo-American Film Society for his work as a film critic. In 2007 he was awarded with the Ramnath Goenka Award for Excellence in Journalism. He currently runs a cinema website called theW14.com. He has authored a bestselling book, Name Place Animal Thing.",
-			"image": "mayank.jpg"
+			"image": "mayank.jpg",
+			"rank": "8"
 		},
 		{
 			"name": "Satyajit Bhatkal",
 			"short": "Indian film director",
 			"long": "Indian film director",
 			"desc": "He was a part of the core production team of the landmark Hindi film, Lagaan. He directed India's first theatrically released documentary, 'Chale Chalo' which was instrumental in the making of ‘Lagaan’. The English cut of that film, entitled 'Madness in the Desert' won a National Award and selected for the Locarno Film Festival. He also wrote 'The Spirit of Lagaan', one of the bestsellers of 2003, which was translated into three Indian languages, wrote and directed ‘Zokkomon’, a Bollywood action superhero film, co-produced by Walt Disney Pictures. Also, Satyajit is the man behind the Indian television talk show ‘Satyamev Jayate’ which dared to challenge the accepted norms and the show traversed beyond what was considered safe and guaranteed.",
-			"image": "satyajit.jpg"
+			"image": "satyajit.jpg",
+			"rank": "9"
 		},
 		{
 			"name": "Mallika Dutt",
 			"short": "Social Activist",
 			"long": "Indian American Social Rights Activist, Founder & CEO,Breakthrough",
 			"desc": "A leading innovator in human rights, multimedia, and culture change, she is the Founder, President, and CEO of Breakthrough , an organization whose mission is to build a world in which violence against women and girls is unacceptable. She shares her cutting-edge approach to transformation through speaking, writing, commentary and game-changing multimedia campaigns. She has twice been named one of Verve's Top 50 most influential women and has received multiple awards in recognition of her human rights activism. Dutt is also a co-founder SAKHI for South Asian Women, an organization providing community support to end violence against women of South Asian origin.",
-			"image": "mallika.jpg"
+			"image": "mallika.jpg",
+			"rank": "6"
 		},
 		{
 			"name": "Karthick Iyer",
 			"short": "Violinist",
 			"long": "Violinist, Vocalist & Composer, IndoSoul",
 			"desc": "A violinist, vocalist and music composer who started his journey in the mesmerizing world of music at the age of eight. He is the soul behind the IndoSoul music that is fundamentally Indian but universal in approach and appeal. His work is an amalgamation of different instruments and influences. Being a co-artist of artists like A.R. Rahman, Raghu Dixit and many others he himself was a part of many artistic master pieces. The dexterous mixing of different styles is one of the defining characteristics of his music.",
-			"image": "karthik.jpg"
+			"image": "karthik.jpg",
+			"rank": "5"
 		},
 		{
 			"name": "Kailash Satyarthi",
 			"short": "Indian activist",
 			"long": "Indian activist",
 			"desc": "Kailash Satyarthi is a renowned Indian child rights activist and the winner of Nobel Peace Prize in 2014. He is the founder of the Bachpan Bachao Andolan (BBA), an organization dedicated towards the eradication of child labour and rehabilitation of the rescued former child workers. Child labour is a rampant problem in India where millions of young children are engaged in various forms of work instead of attending schools. Satyarthi has been working as a children’s rights activist from the past many years and has liberated over 80,000 child labourers since 1980. Even as a child he was moved by the plight of other children who were made to work by their parents, and wanted to do something for them. He studied to become an electrical engineer but this profession gave him no satisfaction.",
-			"image": "satyardi.jpg"
+			"image": "satyardi.jpg",
+			"rank": "1"
 		},
 		{
 			"name": "Irshad Kamil",
 			"short": "Lyricist",
 			"long": "Lyricist, Filmfare Awardee",
 			"desc": "A lyricist having command on all genres, and his wordplay smoothly travels the terrains of Life, Philosophy, Romance, Patriotism, Sensuousness, and Sufism. He has won many awards including 3 Filmfares. Having written lyrics for films like Tamasha, Rockstar, Raanjhana, Sultan, etc., he is an engrossing litterateur. He has also penned his thoughts on paper in his 3 books spread across genres of drama, critic and poetry. He's a lyricist, a writer and now about to make his directional debut.",
-			"image": "irshad.jpg"
+			"image": "irshad.jpg",
+			"rank": "2"
 		},
 		{
 			"name": "Ulrike Reinhard",
 			"short": "Social Activist",
 			"long": "Social Activist, Founder - Janwaar Castle",
 			"desc": "Being a native German and having traveled to more than 100 countries over last 20 years, Ulrike reformed a small village of about thousand people, a region otherwise marred with issues like untouchability, gender inequality, illiteracy, and alcoholism. Her other notable work includes DNAdigital, a initiative in Germany aimed to foster dialogue between the 'Internet Generation' and business leaders. She has also published Reboot_D - Digital Democracy about the way the internet is shaping and transforming society and politics in Germany.",
-			"image": "ulrike.jpg"
+			"image": "ulrike.jpg",
+			"rank": "93"
 		},
 		{
 			"name": "Gaurav Juyal",
 			"short": "Artist",
 			"long": "Artist, Disney's Art Attack",
 			"desc": "Gaurav Juyal is a creative artist. He hosted Walt Disney’s show Art Attack which teaches kids to recycle household waste to create art and craft. He got specialization in Animation Film Design from National Institute of Design, Ahmedabad. He is the co-founder of ‘thoughts and bolts’, a team of artists who work with children to develop new learning methods.",
-			"image": "gaurav.jpg"
+			"image": "gaurav.jpg",
+			"rank": "3"
 		},
 		{
 			"name": "Devina Kothari",
 			"short": "Industrial Designer",
 			"long": "Innovator- Public health, Industrial Designer",
 			"desc": "Most famous for developing and designing a device which can make the delivery of insulin virtually pain free and simpler for diabetics, Devina Kothari has marked her mettle in design innovations in global business. Her innovations in the fields ranging from Agriculture, Architecture, Automotive, Consumer Goods, and Interior Design to Healthcare have been globally recognized. She is a winner of ‘The Red Dot prize’ (2014) for innovative Insulin Delivery System and the 'I Design Award' (2014-2015), for Cornea Care.",
-			"image": "devina.jpg"
+			"image": "devina.jpg",
+			"rank": "4"
 		}
 	]
 }
