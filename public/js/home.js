@@ -26,7 +26,6 @@ app.controller('speakersController', function($scope, $http) {
         $scope.speakers = results.data.data
     })
 }).run(function() {
-	console.log('lol')
     var elements = document.getElementsByClassName('navDiv')
     for(var i = 0; i < elements.length; i++) {
         positions.push(elements[i].offsetTop)
@@ -36,6 +35,11 @@ app.controller('speakersController', function($scope, $http) {
     } else {
     	positions[3]+=4000
     }
+})
+app.controller('reviewsController', function($scope, $http) {
+    $http.get('data/reviews.json').then(function(results) {
+        $scope.reviews = results.data.data
+    })
 })
 
 window.onscroll = function() {

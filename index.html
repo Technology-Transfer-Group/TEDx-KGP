@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 </head>
-<body>
+<body ng-app="app">
     <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
         <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -124,26 +124,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12" id="comments">
+            <div class="col-md-6 col-sm-12" id="comments" ng-controller="reviewsController">
                 <h4 class="red">What people say about us...</h4>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div ng-repeat="m in reviews" class="carousel-item" ng-class="$index==0 ? 'active' : ''">
                             <div class="people-say">
-                                <p class="sizePara">Thanks IIT Kharagpur for great interaction.</p>
-                                <div>- Irshad Kamil</div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="people-say">
-                                <p class="sizePara">Certainly ideas worth spreading! Very inspirational, must watch, great team!</p>
-                                <div>- Manpreet Dash</div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="people-say">
-                                <p class="sizePara">Everything was Fab. Well managed. A li'l improvement in the technical part would be better :) Kudos to ur team :)</p>
-                                <div>- Lipsa Dash</div>
+                                <p class="sizePara">{{m.review}}</p>
+                                <div>- {{m.by}}</div>
                             </div>
                         </div>
                     </div>
@@ -163,7 +151,7 @@
             <div class="text-center">
                 <h1>Previous Speakers</h1>
             </div>
-            <div class="row" ng-app="app" ng-controller="speakersController">
+            <div class="row" ng-controller="speakersController">
                 <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 speakerDiv col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
                     <div class="speakcon">
                         <div class="speaker_image">
