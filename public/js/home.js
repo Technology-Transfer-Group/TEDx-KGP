@@ -79,7 +79,7 @@ $(document).ready(function(){
                 window.location.hash = hash;
             });
         }
-  });
+    });
 });
 
 window.onhashchange = function() {
