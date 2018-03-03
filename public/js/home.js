@@ -1,5 +1,5 @@
 var positions = []
-var countDownDate = new Date("Mar 10, 2018 16:00:00").getTime()
+var countDownDate = new Date("Mar 10, 2018 16:30:00").getTime()
 
 var x = setInterval(function() {
     var now = new Date().getTime()

@@ -6,12 +6,17 @@
 	font-size: 1.5rem
 }
 
+.titleDiv {
+	padding-right: 9rem;
+}
+
 #themeDiv {
-	background: url(../images/main-building.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url(../images/ted.gif) no-repeat center left fixed;
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-o-background-size: 50%;
+	background-color: #2a2729;
+	background-size: 50%;
 	min-height: 100vh;
 	position: relative;
 }
@@ -170,6 +175,11 @@
 	transition: all 0.3s ease;
 }
 
+.cursive {
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 5px;
+}
+
 .speaker_cap {
 	width: 100%;
 	padding-top: 5px;
@@ -214,8 +224,8 @@ body {
 
 .banTitle {
 	font-size: 3rem;
-	color: rgba(255,255,255,0.7);
-	border: 6px solid rgba(255,255,255,0.8);
+	color: rgba(255,255,255,1);
+	/*border: 6px solid rgba(255,255,255,0.8);*/
 	/*border-bottom: 6px solid rgba(255,255,255,0.8);*/
 	padding: 10px 40px;
 	cursor: pointer;
@@ -228,10 +238,10 @@ body {
 }*/
 
 .boldspan {
-	font-weight: 900;
+	font-weight: bold;
 }
 
-.banTitle:hover .boldspan {
+.banTitle .boldspan {
 	color: rgba(230,43,30,0.8);
 }
 
@@ -357,7 +367,7 @@ body {
 
 .dateSpan {
 	font-size: 1.8rem;
-	border: 5px solid rgba(255,255,255,0.7);
+	/*border: 5px solid rgba(255,255,255,0.7);*/
 	padding: 5px 20px;
 	color: rgba(255,255,255,0.7);
 }
@@ -376,7 +386,7 @@ body {
 	color: rgb(230,43,30);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 	.banTitle {
 		font-size: 1.5rem;
 		padding: 3px 12px;
@@ -406,18 +416,8 @@ body {
 	}
 }
 
-/*
-.blurBack {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	background-size: cover;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	filter: blur(10px) grayscale(0.8);
-}*/
+@media screen and (max-width: 570px) {
+	.titleDiv {
+		padding-right: 2rem;
+	}
+}
