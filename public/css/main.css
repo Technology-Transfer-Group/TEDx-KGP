@@ -237,12 +237,12 @@ body {
 	border-right: 6px solid rgba(230,43,30,0.8);
 }*/
 
-.boldspan {
-	font-weight: bold;
+.banTitle .boldspan {
+	color: rgba(230,43,30,1);
 }
 
-.banTitle .boldspan {
-	color: rgba(230,43,30,0.8);
+.nav-link.green-link {
+	color: rgba(230,43,30,1) !important;
 }
 
 .nav-item {
