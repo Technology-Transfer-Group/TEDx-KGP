@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="theme-color" content="#a51e15" />
@@ -46,11 +46,11 @@
                 		<i class="fa fa-facebook-official" aria-hidden="true"></i>
                 	</a>
                 </li>
-                <li class="nav-item media-icons">
+                <!-- <li class="nav-item media-icons">
                 	<a class="nav-link" href="https://www.linkedin.com/company/13225447/">
                 		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 	</a>
-                </li>
+                </li> -->
                 <li class="nav-item media-icons">
                 	<a class="nav-link" href="https://www.instagram.com/tedxiitkharagpur/?hl=en">
                 		<i class="fa fa-instagram" aria-hidden="true"></i>
@@ -74,13 +74,13 @@
                         <div class="banTitle">
                             <span class="boldspan"><strong>TED<sup>x</sup></strong></span> IITKharagpur
                         </div>
-                        <div class="dateSpan">10th March 2018, 4:30 P.M. onwards</div>
-                        <div class="dateSpan">Netaji Auditorium</div>
+                        <!-- <div class="dateSpan">10th March 2018, 4:30 P.M. onwards</div> -->
+                        <!-- <div class="dateSpan">Netaji Auditorium</div> -->
                         <div class="dateSpan">&#8220;<strong class="cursive">Footprints on the uncharted</strong>&#8221;</div>
                     </div>
                 </a>
             </div>
-            <div id="timer" class="col-sm-12">
+            <!-- <div id="timer" class="col-sm-12">
                 <div class="time-units">
                     <p id="days">00</p>
                     <p>days</p>
@@ -97,7 +97,7 @@
                     <p id="seconds">00</p>
                     <p>sec</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="row navDiv" id="about">
             <div class="card col-sm-12 no-pad col-md-6">
@@ -294,14 +294,18 @@
             </div>
         </div>
     </div>
-	<script type="text/javascript" src="external/js/jquery.min.js"></script>
-	<script type="text/javascript" src="external/js/popper.min.js"></script>
-	<script type="text/javascript" src="external/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="external/js/angular.min.js"></script>
-    <script type="text/javascript" src="public/js/home.js"></script>
 </body>
-</html> -->
-
-<div style="background-color: black;">
-    <h1 style="color: white">We'll be back</h1>
+</html>
+<body ng-app="app">
+<div ng-controller="teamController">
+    <p ng-repeat="m in post">
+        {{m}}
+    </p>
 </div>
+<script type="text/javascript" src="external/js/jquery.min.js"></script>
+<script type="text/javascript" src="external/js/popper.min.js"></script>
+<script type="text/javascript" src="external/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="external/js/angular.min.js"></script>
+<script type="text/javascript" src="public/js/home.js"></script>
+
+</body>
