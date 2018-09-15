@@ -45,9 +45,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html#getInvolved">Get Involved</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link green-link" target="_blank" href="https://goo.gl/forms/OqVxglrAUweAcQvh2">Book Your Seat</a>
-                </li>
             </ul>
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
                 <li class="nav-item media-icons">
@@ -72,12 +69,12 @@
     <div class="container-fluid gallery-container">
         <br><br>
         <div ng-app="app">
-            <div class="tz-gallery1">
+            <div class="tz-gallery">
                 <div class="row text-center">
                     <h2 class="text-center">2018 Edition</h2>
                 </div><br><br>
                 <div class="row">
-                    <div class="col-sm-12 col-md-4" ng-repeat="n in [].constructor(8) track by $index">
+                    <div class="col-sm-12 col-md-4" ng-repeat="n in [].constructor(12) track by $index">
                         <div class="thumbnail">
                             <a class="lightbox" href="public/images/gallery/2018/{{$index+1}}.jpg">
                                 <img src="public/images/gallery/2018/{{$index+1}}.jpg" alt="TEDxIITKharagpur">
@@ -140,7 +137,6 @@
     <script src="external/js/baguetteBox.min.js"></script>
     <script>
         $(document).ready(function() {
-            baguetteBox.run('.tz-gallery1');
             baguetteBox.run('.tz-gallery');
         })
     </script>
