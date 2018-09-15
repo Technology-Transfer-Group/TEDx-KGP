@@ -46,6 +46,11 @@
     margin: 0;
 }
 
+.text-center {
+  text-align: center !important;
+  padding-left: 20px;
+}
+
 .baguetteBox-button {
     background-color: transparent !important;
 }

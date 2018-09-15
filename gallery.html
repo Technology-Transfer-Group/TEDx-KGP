@@ -31,6 +31,9 @@
                     <a class="nav-link" href="index.html#about">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="index.html#cspeakers">Speakers</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.html#speakers">Previous Speakers</a>
                 </li>
                 <li class="nav-item active">
@@ -68,15 +71,35 @@
 
     <div class="container-fluid gallery-container">
         <br><br>
-        <div class="tz-gallery" ng-app="app">
+        <div ng-app="app">
+            <div class="tz-gallery1">
+                <div class="row text-center">
+                    <h2 class="text-center">2018 Edition</h2>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4" ng-repeat="n in [].constructor(8) track by $index">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="public/images/gallery/2018/{{$index+1}}.jpg">
+                                <img src="public/images/gallery/2018/{{$index+1}}.jpg" alt="TEDxIITKharagpur">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+            <div class="tz-gallery">
+                <div class="row">
+                    <h2 class="text-center">Previous Editions</h2>
+                </div><br><br>
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-sm-12 col-md-4" ng-repeat="n in [].constructor(24) track by $index">
-                    <div class="thumbnail">
-                        <a class="lightbox" href="public/images/gallery/{{$index+1}}.jpg">
-                            <img src="public/images/gallery/{{$index+1}}.jpg" alt="TEDxIITKharagpur">
-                        </a>
+                    <div class="col-sm-12 col-md-4" ng-repeat="n in [].constructor(24) track by $index">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="public/images/gallery/{{$index+1}}.jpg">
+                                <img src="public/images/gallery/{{$index+1}}.jpg" alt="TEDxIITKharagpur">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,6 +140,7 @@
     <script src="external/js/baguetteBox.min.js"></script>
     <script>
         $(document).ready(function() {
+            baguetteBox.run('.tz-gallery1');
             baguetteBox.run('.tz-gallery');
         })
     </script>

@@ -21,6 +21,13 @@ var x = setInterval(function() {
 }, 1000)
 
 var app = angular.module('app', [])
+
+app.controller('cspeakersController', function($scope, $http) {
+    $http.get('data/cspeakers.json').then(function(results) {
+        $scope.speakers = results.data.data
+    })
+})
+
 app.controller('speakersController', function($scope, $http) {
     $http.get('data/speakers.json').then(function(results) {
         $scope.speakers = results.data.data
@@ -31,9 +38,11 @@ app.controller('speakersController', function($scope, $http) {
         positions.push(elements[i].offsetTop)
     }
     if (window.innerWidth > 480){
-    	positions[3]+=980
+        positions[3]+=720
+    	positions[4]+=1800
     } else {
-    	positions[3]+=4000
+        positions[3]+=4000
+    	positions[4]+=4000
     }
 })
 app.controller('reviewsController', function($scope, $http) {
@@ -43,13 +52,7 @@ app.controller('reviewsController', function($scope, $http) {
 })
 
 window.onscroll = function() {
-	if (window.pageYOffset > 150) {
-        $('.navbar').removeClass('topNav')
-        $('.navbar').addClass('downNav')
-    } else {
-        $('.navbar').removeClass('downNav')
-        $('.navbar').addClass('topNav')
-    }
+	navStatus()
 
 	var curr = document.documentElement.scrollTop
 	var count = -1
@@ -67,6 +70,7 @@ window.onscroll = function() {
 }
 
 $(document).ready(function(){
+    navStatus()
     hashUp()
   // Add smooth scrolling to all links
     $(".scrollable").on('click', function(event) {
@@ -91,5 +95,15 @@ function hashUp() {
     if (hrf) {
         $('.scrollable').parent().removeClass('active')
         $('.nav-link[href="' + hrf + '"]').parent().addClass('active')
+    }
+}
+
+function navStatus() {
+    if (window.pageYOffset > 150) {
+        $('.navbar').removeClass('topNav')
+        $('.navbar').addClass('downNav')
+    } else {
+        $('.navbar').removeClass('downNav')
+        $('.navbar').addClass('topNav')
     }
 }
