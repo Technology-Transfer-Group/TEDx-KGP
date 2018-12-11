@@ -3,7 +3,7 @@
 <head>
     <meta name="theme-color" content="#a51e15" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>TEDxIITKharagpur | 2018</title>
+	<title>TEDxIITKharagpur | 2019</title>
     <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -24,9 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#cspeakers">Speakers</a>
-                </li>
+                <!---<li class="nav-item">
+                    <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#cspeakers">Speakers</a> 
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#speakers">Previous Speakers</a>
                 </li>
@@ -67,9 +67,9 @@
                 <a class="scrollable" href="#about">
                     <div>
                         <div class="banTitle">
-                            <span class="boldspan"><strong>TED<sup>x</sup></strong></span> IITKharagpur
+                            <span class="boldspan"><strong>TED<sup>x</sup></strong></span> IITKharagpur 2019
                         </div>
-                        <div class="dateSpan">&#8220;<strong class="cursive">Footprints on the uncharted</strong>&#8221;</div>
+                        <!--<div class="dateSpan">&#8220;<strong class="cursive">Footprints on the uncharted</strong>&#8221;</div>--->
                     </div>
                 </a>
             </div>
@@ -132,7 +132,7 @@
         <br><br>
         <div id="cspeakers" class="navDiv">
             <div class="text-center">
-                <h1>Speakers</h1>
+             <!---   <h1>Speakers</h1> --->
             </div>
             <div class="row" ng-controller="cspeakersController">
                 <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 speakerDiv col-md-3" ng-repeat="m in speakers | orderBy:'rank'">

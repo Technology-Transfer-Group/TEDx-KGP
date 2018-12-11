@@ -1,52 +1,5 @@
 {
     "data": [
-        {
-            "name": "Sushant Verma",
-            "short": "Design Entrepreneur, Architect & Educator",
-            "long": "Design Entrepreneur, Architect, Computational Designer and Educator",
-            "desc": "Sushant Verma is a Design Entrepreneur, Architect, Computational Designer and Educator, currently leading rat[LAB] Studio (Research in Architecture and Technology) that investigates intersections of design, art and technology through architecture, interior design and installations. He holds a Masters Degree in Emergent Technologies and Design from Architectural Association, London and is a former architect at Zaha Hadid Architects, London. He is the founder of rat[LAB] EDUCATION, which is an initiative to spread the idea of computation in design through independently-organized design workshops for profession and academia. With multiple publications, awards and exhibitions at London, Los Angeles, Chicago, New York, Tokyo, San Francisco, Taipei, New Delhi, Mumbai, he is widely featured internationally for his design and research work. He joined the elite list of TEDx Speakers by speaking at TEDxGurugram on 'Smart Cities need Smarter Design Education'.",
-            "image": "sv.webp",
-            "rank": "4"
-        },
-        {
-            "name": "Shreiya Chowdhary",
-            "short": "Creative Technologist",
-            "long": "Creative Technologist and Programmer",
-            "desc": "Shreiya Chowdhary (1991, India) is a programmer and creative technologist working out of New Delhi. She comes from a diverse professional background which ranges from marketing to copywriting, transitioning to digital market with a side of sports (having represented the country in Women’s Skeet Shotgun events over the world). Now she explores possibilities with various micro-controllers to create fun yet functional devices out of inanimate objects. With humour and her background in copywriting, she hopes to give life to all insentient entities with the help of programming and embedded electronics.",
-            "image": "sc.jpg",
-            "rank": "5"
-        },
-        {
-            "name": "Dr.Benny Prasad",
-            "short": "Instrumental Guitarist",
-            "long": "Instrumental Guitarist",
-            "desc": "Dr. Benny Prasad is an instrumental guitarist from India. He designed the Bentar which is the world's first bongo guitar. He also holds the world record for being the fastest man ever to visit all 195 countries in the world. He has traveled all around the world performing to audiences. He has performed before presidents and parliaments, before the crowds of 2007 military world games, 2006 FIFA world cup and the 2004 Olympic games.  Benny Prasad has won world-recognition by designing two guitars – the world's first bongo guitar and a 54 string guitar, the bentar.",
-            "image": "bp.jpeg",
-            "rank": "2"
-        },
-        {
-            "name": "Dr.Jagdish Chaturvedi",
-            "short": "Medical Device Innovator",
-            "long": "ENT Surgeon, Medical Device Innovator, Author and Stand-up Comedian",
-            "desc": "Dr. Jagdish Chaturvedi is an ENT surgeon, medical device innovator, author and stand-up comedian. He is also an inventor for affordable medical devices tailored specifically for the Indian population, and has already invented as many as 18 medical devices. At present, he heads clinical innovations at a medical technology company in Bangalore called Innaccel. He is recognized as one of the 35 innovators under the age of 35 by the MIT technology review 2016.He is also the author of the best-selling books \"Inventing Medical Devices: A perspective from India\" and \"The benefits of failing successfully\". He is a recognized stand-up comedian popularized by his channel \"Jagdish Chaturvedi\" on Youtube.",
-            "image": "jc.jpeg",
-            "rank": "3"
-        },
-        {
-            "name": "Puja Marwaha",
-            "short": "CEO, Child Rights and You(CRY)",
-            "long": "CEO, Child Rights and You(CRY)",
-            "desc": "Puja Marwaha is the Chief Executive Officer of CRY - Child Rights and You. A post graduate diploma holder in Human Resources from XISS - Ranchi, she has worked earlier with Citicorp Software. Puja Marwaha specialises in Human Resources Development and made the transition from the corporate to the social sector early in her career. She joined CRY in 1994 to set up the organisation’s Human Resources function. Over the course of her work, Puja has overseen the nurturing of a large number of organizations and people, enabling them to connect at the level of individual belief, to the vision of all rights, for all children.",
-            "image": "pooja.jpeg",
-            "rank": "1"
-        },
-        {
-            "name": "Abhinav Anand",
-            "short": "Actor, The Viral Fever(TVF)",
-            "long": "Writer, Actor and Director",
-            "desc": "Abhinav Anand is a writer, actor and director, also known popularly as 'Bade Miyan'. An enthusiast in the field of Digital Media, Abhinav Anand came into limelight through his work in comedy videos on YouTube. He has been working with popular entertainment channels like Girliyapa, The Screen Patti (TSP) and The Viral Fever (TVF). Abhinav has also made guest appearances in many videos and directed some of the web series like TSP's Bonnet Pe Charcha and TSP's Rabish Ki Report.",
-            "image": "aa.jpg",
-            "rank": "6"
-        }
+       
     ]
 }
