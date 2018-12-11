@@ -11,12 +11,12 @@
 }
 
 #themeDiv {
-	background: url(../images/tedx19bg.jpg) no-repeat center left ;
+	background: url(../images/tedx19bg.jpg) center left ;
 	-webkit-background-size: 50%;
 	-moz-background-size: 50%;
 	-o-background-size: 50%;
 	background-color: #2a2729;
-	background-size: 50%;
+	background-size: cover;
 	min-height: 100vh;
 	position: relative;
 }
