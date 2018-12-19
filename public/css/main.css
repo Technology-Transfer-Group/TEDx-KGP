@@ -17,9 +17,6 @@ body{
 .titleDiv {
 	padding-right: 9rem;
 }
-.card-header > .nav > .nav-item > .active{
-	color: red !important;
-}
 
 /*#themeDiv {
 	background: url(../images/tedx19bg.jpg) center left ;
@@ -209,7 +206,7 @@ body{
 }
 
 .sizePara {
-	font-size: 1.15rem;
+	font-size: 1rem;
 }
 
 .speakerDiv .modal-body {
@@ -265,6 +262,9 @@ body {
 }
 .card-header .nav .nav-item a.nav-link {
 	color: #4e4e4e !important;
+}
+.card-header .nav .nav-item a.nav-link.active {
+	color: red !important;
 }
 .carousel-control-next, .carousel-control-prev{
 	background-color: #d3d3d32b;
