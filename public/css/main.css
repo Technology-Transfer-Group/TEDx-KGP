@@ -511,3 +511,7 @@ sup{
 #speakers{
 	padding-top: 80px;
 }
+#comments > h4{
+	font-weight: bold;
+	text-align: center;
+}
