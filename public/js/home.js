@@ -31,52 +31,52 @@ app.controller('reviewsController', function($scope, $http) {
     })
 })
 
-window.onscroll = function() {
-	navStatus()
+// window.onscroll = function() {
+// 	navStatus()
 
-	var curr = document.documentElement.scrollTop
-	var count = -1
+// 	var curr = document.documentElement.scrollTop
+// 	var count = -1
 
-	$.each(positions, function(index, element) {
-		if (curr >= element) {
-			count++
-		} else {
-			return false
-		}
-	})
+// 	$.each(positions, function(index, element) {
+// 		if (curr >= element) {
+// 			count++
+// 		} else {
+// 			return false
+// 		}
+// 	})
 
-	$(".scrollable").parent().removeClass('active')
-	$('.scrollable:eq('+count+')').parent().addClass('active')
-}
+// 	$(".scrollable").parent().removeClass('active')
+// 	$('.scrollable:eq('+count+')').parent().addClass('active')
+// }
 
-$(document).ready(function(){
-    navStatus()
-    hashUp()
-  // Add smooth scrolling to all links
-    $(".scrollable").on('click', function(event) {
-        if (this.hash !== "") {
-            // event.preventDefault()
-            var hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-                window.location.hash = hash;
-            });
-        }
-    });
-});
+// $(document).ready(function(){
+//     navStatus()
+//     hashUp()
+//   // Add smooth scrolling to all links
+//     $(".scrollable").on('click', function(event) {
+//         if (this.hash !== "") {
+//             // event.preventDefault()
+//             var hash = this.hash;
+//             $('html, body').animate({
+//                 scrollTop: $(hash).offset().top
+//             }, 800, function(){
+//                 window.location.hash = hash;
+//             });
+//         }
+//     });
+// });
 
-window.onhashchange = function() {
-    hashUp()
-}
+// window.onhashchange = function() {
+//     hashUp()
+// }
 
-function hashUp() {
-    var hrf = location.hash
-    if (hrf) {
-        $('.scrollable').parent().removeClass('active')
-        $('.nav-link[href="' + hrf + '"]').parent().addClass('active')
-    }
-}
+// function hashUp() {
+//     var hrf = location.hash
+//     if (hrf) {
+//         $('.scrollable').parent().removeClass('active')
+//         $('.nav-link[href="' + hrf + '"]').parent().addClass('active')
+//     }
+// }
 
 function navStatus() {
     if (window.pageYOffset > 150) {
@@ -87,3 +87,63 @@ function navStatus() {
         $('.navbar').addClass('topNav')
     }
 }
+var scrollButtons = document.getElementsByClassName("scrollable");
+var themeDiv = document.getElementById("themeDiv");
+var aboutDiv = document.getElementById("about");
+var speakersDiv = document.getElementById("speakers");
+var involveDiv = document.getElementById("getInvolved");
+scrollButtons[0].onclick = function(){
+    themeDiv.scrollIntoView({behavior:"smooth", block:"end"});
+     removeClass();
+    this.classList.add("active");
+}
+scrollButtons[1].onclick = function(){
+    aboutDiv.scrollIntoView({behavior:"smooth"});
+     removeClass();
+    this.classList.add("active");
+}
+scrollButtons[2].onclick = function(){
+    speakersDiv.scrollIntoView({behavior:"smooth", block:"start"});
+     removeClass();
+    this.classList.add("active");
+}
+scrollButtons[3].onclick = function(){
+    involveDiv.scrollIntoView({behavior:"smooth", block:"start"});
+    removeClass();
+    this.classList.add("active");
+}
+function removeClass(){
+    for(var x = 0; x < scrollButtons.length; x++){
+        scrollButtons[x].classList.remove("active");
+    }
+}
+// Set the date we're counting down to
+var countDownDate = new Date("March 16, 2019 10:37:25").getTime();
+
+// Update the count down every 1 second
+window.onload = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("dayDisplay").textContent =  days;
+  document.getElementById("minuteDisplay").textContent =  minutes;
+  document.getElementById("hourDisplay").textContent =  hours;
+  document.getElementById("secondDisplay").textContent =  seconds;
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
