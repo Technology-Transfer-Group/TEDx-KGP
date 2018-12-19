@@ -94,28 +94,15 @@ var speakersDiv = document.getElementById("speakers");
 var involveDiv = document.getElementById("getInvolved");
 scrollButtons[0].onclick = function(){
     themeDiv.scrollIntoView({behavior:"smooth", block:"end"});
-     removeClass();
-    this.classList.add("active");
 }
 scrollButtons[1].onclick = function(){
     aboutDiv.scrollIntoView({behavior:"smooth"});
-     removeClass();
-    this.classList.add("active");
 }
 scrollButtons[2].onclick = function(){
     speakersDiv.scrollIntoView({behavior:"smooth", block:"start"});
-     removeClass();
-    this.classList.add("active");
 }
 scrollButtons[3].onclick = function(){
     involveDiv.scrollIntoView({behavior:"smooth", block:"start"});
-    removeClass();
-    this.classList.add("active");
-}
-function removeClass(){
-    for(var x = 0; x < scrollButtons.length; x++){
-        scrollButtons[x].classList.remove("active");
-    }
 }
 // Set the date we're counting down to
 var countDownDate = new Date("March 16, 2019 10:37:25").getTime();
