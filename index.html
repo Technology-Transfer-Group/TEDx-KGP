@@ -9,24 +9,22 @@
 	<link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 </head>
-<body ng-app="app">
+<body ng-app="app" >
     <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
-        <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="collapseNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav ml-auto paddingRight">
+                <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#themeDiv">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a>
                 </li>
-                <!---<li class="nav-item">
-                    <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#cspeakers">Speakers</a> 
-                </li>-->
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#speakers">Previous Speakers</a>
                 </li>
@@ -40,7 +38,7 @@
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#getInvolved">Get Involved</a>
                 </li>
             </ul>
-            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <ul class="navbar-nav flex-row d-none d-md-flex borderLeft">
                 <li class="nav-item media-icons">
                 	<a class="nav-link" href="https://www.facebook.com/TEDxIITKharagpur/">
                 		<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -53,32 +51,37 @@
                 </li>
         	</ul>
         </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row navDiv" id="themeDiv">
-            <div id="themeOverlay">
-
-            </div>
-            <div class="col-sm-12">
-
-            </div>
-            <div class="col-sm-12 text-right titleDiv">
-                <a class="scrollable" href="#about">
-                    <div>
-                        <div class="banTitle">
-                            <span class="boldspan"><strong>TED<sup>x</sup></strong></span> IITKharagpur 2019
-                        </div>
-                        <!--<div class="dateSpan">&#8220;<strong class="cursive">Footprints on the uncharted</strong>&#8221;</div>--->
-                    </div>
-                </a>
-            </div>
         </div>
-        <div class="row navDiv" id="about">
+    </div>
+    <div>
+        <div class="front-container" id="themeDiv">
+            <div class="pictureFront themeDiv" >
+            </div>
+            <h1 class="heading" style="font-family: helvetica"><span style="color: red;"><strong>TED<sup>x</sup></strong></span>IITKharagpur 2019</h1>
+            <div id="demo">
+            	<h1 style="color: red;">CountDown</h1>
+            	<h1 id="timerDisplay">
+            		<div id="day">
+            			<div>D</div>
+            			<div id="dayDisplay"></div>
+            		</div>
+            		<div id="hour">
+            			<div>H</div>
+            			<div id="hourDisplay"></div>
+            		</div>
+            		<div id="minute">
+            			<div>M</div>
+            			<div id="minuteDisplay"></div>
+            		</div>
+            		<div id="second">
+            			<div>S</div>
+            			<div id="secondDisplay"></div>
+            		</div>
+            	</h1>
             </div>
         </div>
         <div class="row" id="about">
-            <div class="card col-sm-12 no-pad col-md-6">
+            <div class="card col-sm-12 col-md-12">
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
@@ -170,7 +173,6 @@
                 </div>
             </div>
         </div>
-        <br><br>
         <div id="speakers" class="navDiv">
             <div class="text-center">
                 <h1>Previous Speakers</h1>
@@ -211,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
         <div id="getInvolved" class="navDiv">
             <div id="spekin">
                 <div class="text-center">
