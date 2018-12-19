@@ -531,9 +531,9 @@ position: relative;
 }
 #timerDisplay > div{
 	box-sizing: content-box;
-    width: 90px;
+    width: 75px;
 	padding: 0rem;
-	border: 1rem solid red;
+	border: 0.5rem solid red;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
