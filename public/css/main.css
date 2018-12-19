@@ -199,11 +199,13 @@ body {
 .banTitle {
 	font-size: 3rem;
 	color: rgba(255,255,255,1);
-	/*border: 6px solid rgba(255,255,255,0.8);*/
+	border: 6px solid rgba(255,255,255,0.8);
 	/*border-bottom: 6px solid rgba(255,255,255,0.8);*/
 	padding: 10px 40px;
 	cursor: pointer;
 	transition: all 0.3s ease;
+	   
+
 }
 /*
 .banTitle:hover {
@@ -487,6 +489,16 @@ color:white;
 }
 
 .timer_and_title {
+display: inline-block;
+position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
 }
 
 
