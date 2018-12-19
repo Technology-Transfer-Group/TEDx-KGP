@@ -4,32 +4,27 @@
     <meta name="theme-color" content="#a51e15" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>TEDxIITKharagpur | 2019</title>
-        <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 </head>
-<body ng-app="app">
+<body ng-app="app" >
     <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
-        <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="collapseNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav ml-auto paddingRight">
+                <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#themeDiv">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a>
                 </li>
-                <!---<li class="nav-item">
-                    <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#cspeakers">Speakers</a> 
-                </li>-->
                 <li class="nav-item">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#speakers">Previous Speakers</a>
                 </li>
@@ -43,7 +38,7 @@
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#getInvolved">Get Involved</a>
                 </li>
             </ul>
-            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <ul class="navbar-nav flex-row d-none d-md-flex borderLeft">
                 <li class="nav-item media-icons">
                 	<a class="nav-link" href="https://www.facebook.com/TEDxIITKharagpur/">
                 		<i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -56,40 +51,37 @@
                 </li>
         	</ul>
         </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row navDiv" id="themeDiv">
-            <div id="themeOverlay">
-
-            </div>
-            <div class="col-sm-12">
-
-            </div>
-            <div class="col-sm-12 titleDiv">
-              <div class="timer_and_title text-justify">
-                        <div id="demo" style="text-align: center; font-family: 'Dosis', sans-serif;">
-                            
-                        
-                    </div>
-                        <div class=" banTitle" style="text-align: center;font-family: 'Dosis', sans-serif;" >
-                            <span class="boldspan"><strong>TED<sup>x</sup></strong></span> IITKharagpur 2019 <br>
-                            16th March 2019
-                        </div>
-                          
-                        <!--<div class="dateSpan">&#8220;<strong class="cursive">Footprints on the uncharted</strong>&#8221;</div>--->
-                    
-
-                
-            </div>
-            </div>
-
         </div>
-        <div class="row navDiv" id="about">
+    </div>
+    <div>
+        <div class="front-container" id="themeDiv">
+            <div class="pictureFront themeDiv" >
+            </div>
+            <h1 class="heading" style="font-family: helvetica"><span style="color: red;"><strong>TED<sup>x</sup></strong></span>IITKharagpur 2019</h1>
+            <div id="demo">
+            	<h1 style="color: red;">CountDown</h1>
+            	<h1 id="timerDisplay">
+            		<div id="day">
+            			<div>D</div>
+            			<div id="dayDisplay"></div>
+            		</div>
+            		<div id="hour">
+            			<div>H</div>
+            			<div id="hourDisplay"></div>
+            		</div>
+            		<div id="minute">
+            			<div>M</div>
+            			<div id="minuteDisplay"></div>
+            		</div>
+            		<div id="second">
+            			<div>S</div>
+            			<div id="secondDisplay"></div>
+            		</div>
+            	</h1>
             </div>
         </div>
         <div class="row" id="about">
-            <div class="card col-sm-12 no-pad col-md-6">
+            <div class="card col-sm-12 col-md-12">
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item">
@@ -146,7 +138,7 @@
              <!---   <h1>Speakers</h1> --->
             </div>
             <div class="row" ng-controller="cspeakersController">
-                <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12  col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
+                <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 speakerDiv col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
                     <div class="speakcon">
                         <div class="speaker_image">
                             <img src="public/images/speakers/{{m.image}}">
@@ -181,20 +173,19 @@
                 </div>
             </div>
         </div>
-        <br><br>
         <div id="speakers" class="navDiv">
             <div class="text-center">
                 <h1>Previous Speakers</h1>
             </div>
             <div class="row" ng-controller="speakersController">
-                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
-                    <div class="our-team">
-                        <div class="pic">
+                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 speakerDiv col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
+                    <div class="speakcon">
+                        <div class="speaker_image">
                             <img src="public/images/speakers/{{m.image}}">
                         </div>
-                        <div class="team-content">
-                            <span class="title">{{m.name}}</span><br>
-                            <span class="post">{{m.short}}</span>
+                        <div class="speaker_cap">
+                            <span class="sname">{{m.name}}</span><br>
+                            <span class="stag">{{m.short}}</span>
                         </div>
                         <div class="overlayspea">
                             <h3>{{m.name.split(' ')[0]}}</h3>
@@ -222,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
         <div id="getInvolved" class="navDiv">
             <div id="spekin">
                 <div class="text-center">
@@ -306,12 +297,12 @@
                 <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
             </div>
             <div class="col-sm-12 col-md-4">
-                <h4>License Holder</h4>
+                <h4>Curator</h4>
                 <span>Koumudi Mantha</span><br>
                 <span>+91-9160108686</span><br>
-                <a target="_blank" href="mailto:koumudi1299@gmail.com"><i class="fa fa-envelope"></i></a>
-                <a target="_blank" href=https://www.facebook.com/Koumudi99"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/koumudi-mantha-7b6b9193"><i class="fa fa-linkedin"></i></a>
+               <!-- <a target="_blank" href="mailto:himesh.dec28@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a target="_blank" href="https://www.facebook.com/himesh.kothari1"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/himeshkothari/"><i class="fa fa-linkedin"></i></a> -->
             </div>
             <div class="col-sm-12 col-md-4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799" height="125" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
@@ -324,42 +315,11 @@
             </div>
         </div>
     </div>
-</body>
-</html>
 
 <script type="text/javascript" src="external/js/jquery.min.js"></script>
 <script type="text/javascript" src="external/js/popper.min.js"></script>
 <script type="text/javascript" src="external/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="external/js/angular.min.js"></script>
 <script type="text/javascript" src="public/js/home.js"></script>
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("March 16, 2019 10:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get todays date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = " Days | Hrs | Min | Sec <br>"+ days + "  :   " + hours + " :   "
-  + minutes + "  :   " + seconds ;
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
 </body>
+</html>
