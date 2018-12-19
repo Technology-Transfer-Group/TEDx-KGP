@@ -1,3 +1,9 @@
+html{
+	font-size: 13px;
+}
+body{
+	font-family: segoe UI;
+}
 .media-icons {
 	padding: 8px;
 }
@@ -9,8 +15,11 @@
 .titleDiv {
 	padding-right: 9rem;
 }
+.card-header > .nav > .nav-item > .active{
+	color: red !important;
+}
 
-#themeDiv {
+/*#themeDiv {
 	background: url(../images/tedx19bg.jpg) center left ;
 	-webkit-background-size: 50%;
 	-moz-background-size: 50%;
@@ -19,14 +28,14 @@
 	background-size: cover;
 	min-height: 100vh;
 	position: relative;
-}
+}*/
 
 .para-tab {
 	color: #888;
 	text-align: left;
 }
 .nav-link {
-	color: #555 !important;
+	color: grey !important;
 }
 
 .nav-tabs .nav-link.active {
@@ -249,11 +258,7 @@ body {
 	transition: all 0.3s ease;
 }
 
-.nav-item.active {
-	border-bottom: 1px solid white;
-}
-
-.nav-item.active a.nav-link {
+.nav-item a.nav-link.active {
 	color: #fff!important;
 }
 
@@ -285,21 +290,20 @@ body {
 }
 
 .topNav {
-	background: rgba(255,255,255,0)!important;
-	position: fixed;
-	border-bottom: 2px solid rgba(255,255,255,0.3);
+	background: rgba(0,0,0,0.85)!important;
+	/*position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100%;*/
 }
 
 .downNav {
 	background: #000 !important;
-	position: fixed;
+	/*position: fixed;*/
 	/*border-bottom: 2px solid rgba(255,255,255,0.3);*/
-	top: 0;
+	/*top: 0;
 	left: 0;
-	width: 100%;
+	width: 100%;*/
 }
 
 .topNav .scrollable, .topNav .media-icons .fa {
@@ -311,7 +315,7 @@ body {
 }
 
 .nav-link {
-	font-weight: 900;
+	font-weight: 500;
 }
 
 .scrollable:hover {
@@ -329,7 +333,9 @@ body {
 
 .navbar {
 	transition: all 0.3s ease;
+	height: 60px;
 }
+
 
 .gallNav {
 	background-color: #000!important;
@@ -372,7 +378,6 @@ body {
 	padding: 5px 20px;
 	color: rgba(255,255,255,0.7);
 }
-
 #spekin {
 	background: url(../images/speakersTEDx.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -421,4 +426,86 @@ body {
 	.titleDiv {
 		padding-right: 2rem;
 	}
+}
+
+.front-container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    height: calc(100vh - 60px);
+    max-height: 100%;
+    max-width: 100%;
+    width: 100vw;
+}
+.pictureFront{
+	z-index: -1;
+	top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    background-position: center;
+    background-image: url(../images/tedx19bg.jpg);
+    background-size: cover;
+    filter: grayscale() brightness(40%);
+}
+.borderLeft{
+	border-left: 1px solid white;
+}
+.paddingRight{
+	padding-right: 0.5rem;
+}
+.heading{
+	/*position: absolute;*/
+    font-size: 6rem;
+    /*top: calc(50% - 5rem);*/
+    color: white;
+    filter: none;
+    left: 5%;
+}
+#demo{
+	text-align: center;	
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+}
+#demo > h1{
+	/*position: absolute;*/
+    font-size: 5rem;
+    /*top: calc(60% - 5rem);*/
+    color: white;
+    filter: none;
+    left: 5%;
+}
+
+#timerDisplay{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+#timerDisplay > div{
+	box-sizing: content-box;
+    width: 90px;
+	padding: 0.5rem;
+	border: 1rem solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+}
+#timerDisplay > div + div{
+	border-left: none;
+}
+sup{
+
+	top: -0.87em;
+	font-size: 50%;
+}
+#speakers{
+	padding-top: 80px;
 }
