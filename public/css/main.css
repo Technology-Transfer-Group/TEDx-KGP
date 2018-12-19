@@ -49,6 +49,7 @@ body{
 }
 
 .people-say p {
+	font-weight: bold;
 	text-align: center;
 	color: #999;
 }
@@ -70,7 +71,7 @@ body{
 
 #comments {
 	padding: 30px 30px;
-	background: rgba(0,0,0,0.03);
+	background: rgba(0, 0, 0, 0.94);
 }
 
 #timer {
@@ -266,7 +267,7 @@ body {
 	color: #4e4e4e !important;
 }
 .carousel-control-next, .carousel-control-prev{
-	background-color: lightgrey;
+	background-color: #d3d3d32b;
 }
 .sym .fa {
 	font-size: 3rem;
@@ -516,6 +517,7 @@ sup{
 	padding-top: 80px;
 }
 #comments > h4{
+	font-size: xx-large;
 	font-weight: bold;
 	text-align: center;
 }
