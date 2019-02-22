@@ -204,7 +204,7 @@ body {
 	padding: 10px 40px;
 	cursor: pointer;
 	transition: all 0.3s ease;
-	   
+
 
 }
 /*
@@ -223,7 +223,7 @@ body {
 
 .nav-item {
 	transition: all 0.3s ease;
-	font-family: Segoe UI;
+	font-family:Arial;
 }
 
 .nav-item.active {
@@ -431,7 +431,7 @@ background: #000;
 }
 .our-team:hover .team-content{
     opacity: 1;
-    border-radius: 5px; 
+    border-radius: 5px;
     bottom: -10px;
 }
 .our-team .title{
@@ -507,7 +507,7 @@ position: relative;
 }
 
 #demo{
-	text-align: center;	
+	text-align: center;
 	display:flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -547,6 +547,21 @@ sup{
 	top: -0.87em;
 	font-size: 50%;
 }
+
+#circleDot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 10px;
+    border-radius: 50%;
+    width: 10px;
+    background-color: rgb(230, 43, 30);
+}
+
+.relDiv {
+    position: relative;
+}
+
 .our-team .social li a:hover:before{ left: 0; }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
@@ -556,4 +571,43 @@ sup{
 	.titleDiv {
 		padding-right: 2rem;
 	}
+}
+
+.modal-content.custom {
+  background: transparent;
+}
+
+.notif.nav-item.media-icons {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
 }
