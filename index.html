@@ -217,15 +217,16 @@
                 </div>
             </div>
         </div> -->
-	<div id="speakers" class="navDiv">
+	
+	<div id="cspeakers" class="navDiv">
             <div class="text-center">
-                <h1>Previous Speakers</h1>
+                <h1>Current Speakers</h1>
             </div>
-            <div class="row" ng-controller="speakersController">
-                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
+            <div class="row" ng-controller="cspeakersController">
+                <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in cspeakers | orderBy:'rank'">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="public/images/speakers/{{m.image}}">
+                            <img src="public/images/cspeakers/{{m.image}}">
                         </div>
                         <div class="team-content">
                             <span class="title">{{m.name}}</span><br>
@@ -235,7 +236,7 @@
                             <h3>{{m.name.split(' ')[0]}}</h3>
                         </div>
                     </div>
-                    <div id="speakMod{{$index}}" class="modal fade" role="dialog">
+                    <div id="cspeakMod{{$index}}" class="modal fade" role="dialog">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-body">
