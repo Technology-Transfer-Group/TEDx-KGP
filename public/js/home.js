@@ -7,8 +7,8 @@ var positions = []
 var app = angular.module('app', [])
 
 app.controller('cspeakersController', function($scope, $http) {
-    $http.get('data/cspeakers.json').then(function(results) {
-        $scope.speakers = results.data.data
+    $http.get('data/cspeakers.json').then(function(results2) {
+        $scope.cspeakers = results2.data.data
     })
 })
 
