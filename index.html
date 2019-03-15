@@ -218,14 +218,14 @@
             </div>
         </div> -->
 	
-	<div id="speakers" class="navDiv">
+	   <div id="cspeakers" class="navDiv">
             <div class="text-center">
                 <h1>Current Speakers</h1>
             </div>
-            <div class="row" ng-controller="speakersController">
-                <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
+            <div class="row" ng-controller="cspeakersController">
+                <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in cspeakers | orderBy:'rank'">
                     <div class="our-team">
-                        <div class="pic">
+                        <div class="pic" >
                             <img src="public/images/cspeakers/{{m.image}}">
                         </div>
                         <div class="team-content">
@@ -243,7 +243,7 @@
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <div class="row">
                                         <div class="col-sm-12 speakerDes col-md-6">
-                                            <img src="public/images/speakers/{{m.image}}" style="width: 100%;">
+                                            <img src="public/images/cspeakers/{{m.image}}" style="width: 100%;">
                                         </div>
                                         <div class="col-sm-12 col-md-6">
                                             <h4><i>{{m.name}}</i></h4>
@@ -258,7 +258,6 @@
                 </div>
             </div>
         </div>
-
 	
         <br><br>
         
@@ -267,17 +266,17 @@
                 <h1>Previous Speakers</h1>
             </div>
             <div class="row" ng-controller="speakersController">
-                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in speakers | orderBy:'rank'">
+                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="s in speakers | orderBy:'rank'">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="public/images/speakers/{{m.image}}">
+                            <img src="public/images/speakers/{{s.image}}">
                         </div>
                         <div class="team-content">
-                            <span class="title">{{m.name}}</span><br>
-                            <span class="post">{{m.short}}</span>
+                            <span class="title">{{s.name}}</span><br>
+                            <span class="post">{{s.short}}</span>
                         </div>
                         <div class="overlayspea">
-                            <h3>{{m.name.split(' ')[0]}}</h3>
+                            <h3>{{s.name.split(' ')[0]}}</h3>
                         </div>
                     </div>
                     <div id="speakMod{{$index}}" class="modal fade" role="dialog">
@@ -287,12 +286,12 @@
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <div class="row">
                                         <div class="col-sm-12 speakerDes col-md-6">
-                                            <img src="public/images/speakers/{{m.image}}" style="width: 100%;">
+                                            <img src="public/images/speakers/{{s.image}}" style="width: 100%;">
                                         </div>
                                         <div class="col-sm-12 col-md-6">
-                                            <h4><i>{{m.name}}</i></h4>
-                                            <h6><i>{{m.long}}</i></h6><br>
-                                            <p>{{m.desc}}</p>
+                                            <h4><i>{{s.name}}</i></h4>
+                                            <h6><i>{{s.long}}</i></h6><br>
+                                            <p>{{s.desc}}</p>
                                         </div>
                                     </div>
                                 </div>
