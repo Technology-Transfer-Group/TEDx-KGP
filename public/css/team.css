@@ -21,7 +21,7 @@
 }
 .my-team .pic img{
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: all 0.5s ease 0s;
     filter: grayscale(100%);
 }
