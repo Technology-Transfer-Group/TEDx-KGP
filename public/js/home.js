@@ -109,7 +109,7 @@ scrollButtons[3].onclick = function(){
     involveDiv.scrollIntoView({behavior:"smooth", block:"start"});
 }
 // Set the date we're counting down to
-var countDownDate = new Date("March 21, 2020 15:00:00").getTime();
+var countDownDate = new Date("December 1, 2020 21:00:00").getTime();
 
 // Update the count down every 1 second
 window.onload = setInterval(function() {
