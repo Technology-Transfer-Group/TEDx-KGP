@@ -1,31 +1,120 @@
 {
-	"data": [
-		
+	"core": [
 		{
-			"name": "Hardik Bhagat",
-			"fb": "https://www.facebook.com/hardik.bhagat.50",
-			"des": "Logistics Head",
-			"linkedin": "https://www.linkedin.com/in/hardik-bhagat-0978ab151",
-			"image": "hardik.jpg",
-			"mail": "hbhagat960@gmail.com"
-		},
-		
-		{
-			"name": "Kunal Borse",
-			"fb": "https://www.facebook.com/profile.php?id=100002798532245",
-			"des": "Organizing Head",
-			"linkedin": "https://www.linkedin.com/in/kunal-borse-27970815b/",
-			"image": "kunal.jpg",
-			"mail": "kaborse@gmail.com"
+			"name": "Aditi Maurya",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "aditi.jpg",
+			"mail": ""
 		},
 		{
-			"name": "Vedant Saraswat",
-			"fb": "https://www.facebook.com/vedant.saraswat",
-			"des": "Organizing Head",
-			"linkedin": "https://www.linkedin.com/in/vedant-saraswat-925a4540",
-			"image": "vedant.jpg",
-			"mail": "vedantntpc@gmail.com"
+			"name": "Tulsi Bimani",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "tulsi.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Vedanti Bhongade",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "vedanti.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Sagar Varade",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "sagar.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Aman Mishra",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "aman.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Shivani Vasam",
+			"fb": "",
+			"des": "Core Team Head",
+			"linkedin": "",
+			"image": "shivani.jpg",
+			"mail": ""
 		}
-
+	],
+	"web": [
+		{
+			"name": "Manish Kumar Das",
+			"fb": "https://www.facebook.com/iammkdmanish/",
+			"des": "Web Team Head",
+			"linkedin": "https://www.linkedin.com/in/manishkumardas3581321/",
+			"image": "manish.jpg",
+			"mail": "ammanishkumardas@gmail.com"
+		},
+		{
+			"name": "Tejas Ambhore",
+			"fb": "",
+			"des": "Web Team Member",
+			"linkedin": "",
+			"image": "tejas.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Ankit Garg",
+			"fb": "",
+			"des": "Web Team Member",
+			"linkedin": "",
+			"image": "ankit.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Shubham Kumar",
+			"fb": "",
+			"des": "Web Team Head",
+			"linkedin": "",
+			"image": "shubham.jpg",
+			"mail": ""
+		}
+	],
+	"designmedia": [
+		{
+			"name": "Krishnakant Rawat",
+			"des": "Design and Media Head",
+			"fb": "",
+			"linkedin": "",
+			"image": "krishnakant.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Abhinil Kumar",
+			"des": "Design Team Member",
+			"fb": "",
+			"linkedin": "",
+			"image": "abhinil.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Kirti Choudhary",
+			"des": "Design Team Member",
+			"fb": "",
+			"linkedin": "",
+			"image": "kirti.jpg",
+			"mail": ""
+		},
+		{
+			"name": "Navya Choudhary",
+			"des": "Design Team Member",
+			"fb": "",
+			"linkedin": "",
+			"image": "navya.jpg",
+			"mail": ""
+		}
 	]
 }

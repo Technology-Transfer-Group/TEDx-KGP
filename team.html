@@ -56,25 +56,25 @@
         </div>
     </nav>
     <div class="container" style="padding-top:5em; " ng-controller="teamController">
-        <h1>License Holder</h1>
+        <h1><span class="emphasis">License</span> Holder</h1>
         <div class="row">
             <div class="col-sm-12 col-md-3 col-md-offset-9">
                 <div class="my-team">
                     <div class="pic">
-                        <img src="public/images/team/alisha.jpg">
+                        <img src="public/images/team/harshal.jpg">
                     </div>
                     <div class="team-content">
-                        <h3 class="title">Alisha Raj</h3>
+                        <h3 class="title">Harshal Gaikwad</h3>
                         <ul class="social">
-                            <li><a href="https://www.facebook.com/alisha.raj.26" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://in.linkedin.com/in/alisha-raj-a57b36151" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:alisharaj2607@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                            <li><a target="_blank" href="mailto:hcgaikwad314@gmail.com "><i class="fa fa-envelope"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/harshal.gaikwad.33865"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/harshal-gaikwad-840420192/"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <h1>Co Organizer</h1>
+        <!-- <h1>Co Organizer</h1>
         <div class="row">
             <div class="col-sm-12 col-md-3 col-md-offset-9">
                 <div class="my-team">
@@ -91,10 +91,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <h1>Core Team</h1>
+        </div> -->
+        <h1><span class="emphasis">Core</span> Team</h1>
         <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in team | orderBy:'name'">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in coreteam">
                 <div class="my-team">
                     <div class="pic">
                         <img src="public/images/team/{{m.image}}">
@@ -111,41 +111,113 @@
                 </div>
             </div>
         </div>
-        <h1>Web and Design Team</h1>
+        <h1><span class="emphasis">Design</span> and <span class="emphasis">Media</span> Team</h1>
         <div class="row">
-            <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in designmediateam">
                 <div class="my-team">
                     <div class="pic">
-                        <img src="public/images/team/zenil.jpg">
+                        <img src="public/images/team/{{m.image}}">
                     </div>
                     <div class="team-content">
-                        <h3 class="title">Zenil Sanghvi</h3>
-                        <span class="post">Web Developer</span>
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
                         <ul class="social">
-                            <li><a href="https://www.facebook.com/zenil.sanghvi" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://in.linkedin.com/in/zenil-sanghvi-8134bb148" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:zenilrvs@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div><div class="col-md-3 col-sm-12">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/ashin.JPG">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Ashin MK</h3>
-                        <span class="post">Web Developer</span>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/shakul.pathak" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/shakul-pathak-402a6998/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:shakulpathak.iitkgp@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+        </div>
+        <h1><span class="emphasis">Web</span> Team</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in webteam">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/{{m.image}}">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
+                        <ul class="social">
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <h1>Web Team</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/manish.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Manish Kumar Das</h3>
+                        <span class="post">Web Head</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/tejas.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Tejas Ambhore</h3>
+                        <span class="post">Web Team Member</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/ankit.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Ankit Garg</h3>
+                        <span class="post">Web Team Member</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/shubham.jpg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Shubham Kumar</h3>
+                        <span class="post">Web Team Member</span>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
           
         </div>
+    </div>
     </div>
     <div class="row" id="footer">
         <div class="col-sm-12 col-md-4">
@@ -154,21 +226,21 @@
             <a target="_blank" href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a><br>
             <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
         </div>
-            <div class="col-sm-12 col-md-4">
-                <h4>License Holder</h4>
-                <span>Alisha Raj</span><br>
-                <span>+91-7432091660</span><br>
-                <a target="_blank" href="mailto:alisharaj2607@gmail.com"><i class="fa fa-envelope"></i></a>
-                <a target="_blank" href="https://www.facebook.com/alisha.raj.26"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://in.linkedin.com/in/alisha-raj-a57b36151"><i class="fa fa-linkedin"></i></a>
-            </div>
+        <div class="col-sm-12 col-md-4">
+            <h4>License Holder</h4>
+            <span>Harshal Gaikwad</span><br>
+            <span>+91-7045461326</span><br>
+            <a target="_blank" href="mailto:hcgaikwad314@gmail.com "><i class="fa fa-envelope"></i></a>
+            <a target="_blank" href="https://www.facebook.com/harshal.gaikwad.33865"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/harshal-gaikwad-840420192/"><i class="fa fa-linkedin"></i></a>
+        </div>
         <div class="col-sm-12 col-md-4">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799" height="125" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
         </div>
         <hr>
         <div class="row">
             <div class="col-sm-12">
-                <h6>&nbsp;&nbsp;&nbsp;&copy; Copyright 2019. This independent TEDx event is operated under license from TED.</h6>
+                <h6>&nbsp;&nbsp;&nbsp;&copy; Copyright 2020. This independent TEDx event is operated under license from TED.</h6>
             </div>
         </div>
     </div>
