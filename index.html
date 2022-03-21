@@ -249,7 +249,7 @@
                 <h1>Previous Speakers</h1>
             </div>
             <div class="row" ng-controller="speakersController">
-                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="s in speakers | orderBy:'rank'">
+                <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="s in speakers">
                     <div class="our-team">
                         <div class="pic">
                             <img src="public/images/speakers/{{s.image}}">
