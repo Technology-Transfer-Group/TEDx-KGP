@@ -2,52 +2,53 @@
 	"core": [
 		{
 			"name": "Aditi Maurya",
-			"fb": "",
+			"fb": "https://www.facebook.com/messages/t/100056926354845/",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/aditi-maurya-a7a7a3196/",
 			"image": "aditi.jpg",
-			"mail": ""
+			"mail": "aditi.2303.tanu@gmail.com"
 		},
 		{
 			"name": "Tulsi Bimani",
-			"fb": "",
+			"fb": "https://www.facebook.com/tulsi.bhimani.9",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/tulsi-bhimani-b133b5195/",
 			"image": "tulsi.jpg",
-			"mail": ""
+			"mail": "tnileshbhaibhimani@gmail.com"
 		},
 		{
 			"name": "Vedanti Bhongade",
-			"fb": "",
+			"fb": "https://www.facebook.com/vedanti.bhongade.9",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/vedanti-bhongade-44b2491b7/",
 			"image": "vedanti.jpg",
-			"mail": ""
+			"mail": "vedantibhongade@gmail.com"
 		},
 		{
 			"name": "Sagar Varade",
-			"fb": "",
+			"fb": "https://www.facebook.com/sagar.varade.3720",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/sagar-varade-594aa1198/",
 			"image": "sagar.jpg",
-			"mail": ""
+			"mail": "sagar18052002@gmail.com"
 		},
 		{
 			"name": "Aman Mishra",
-			"fb": "",
+			"fb": "https://www.facebook.com/profile.php?id=100026014789211",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/aman005/",
 			"image": "aman.jpg",
-			"mail": ""
+			"mail": "aman005mishra@gmail.com"
 		},
 		{
 			"name": "Shivani Vasam",
-			"fb": "",
+			"fb": "https://www.facebook.com/shivani.vasam.16",
 			"des": "Core Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/shivani-vasam/",
 			"image": "shivani.jpg",
-			"mail": ""
+			"mail": "vasamshivani07@gmail.com"
 		}
+                      
 	],
 	"web": [
 		{
@@ -60,61 +61,61 @@
 		},
 		{
 			"name": "Tejas Ambhore",
-			"fb": "",
+			"fb": "https://www.facebook.com/tejas.ambhore.77",
 			"des": "Web Team Member",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/tejas-ambhore-3634ba206",
 			"image": "tejas.jpg",
-			"mail": ""
+			"mail": "Tejasam2020@gmail.com"
 		},
 		{
 			"name": "Ankit Garg",
-			"fb": "",
+			"fb": "https://www.facebook.com/profile.php?id=100057610597075",
 			"des": "Web Team Member",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/ankit-garg-47208620a/",
 			"image": "ankit.jpg",
-			"mail": ""
+			"mail": "1234ankitgarg@gmail.com"
 		},
 		{
 			"name": "Shubham Kumar",
-			"fb": "",
+			"fb": "https://www.facebook.com/profile.php?id=100058802820952",
 			"des": "Web Team Head",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/shubham-kumar-3443ba172/",
 			"image": "shubham.jpg",
-			"mail": ""
+			"mail": "shubhamkumar12000@gmail.com"
 		}
 	],
 	"designmedia": [
 		{
 			"name": "Krishnakant Rawat",
 			"des": "Design and Media Head",
-			"fb": "",
-			"linkedin": "",
+			"fb": "https://www.facebook.com/krishnakant.rawat.587/",
+			"linkedin": "https://www.linkedin.com/in/krishnakant-rawat/",
 			"image": "krishnakant.jpg",
-			"mail": ""
+			"mail": "krisrawat26@gmail.com"
 		},
 		{
 			"name": "Abhinil Kumar",
 			"des": "Design Team Member",
-			"fb": "",
-			"linkedin": "",
+			"fb": "https://www.facebook.com/abhinil07",
+			"linkedin": "https://www.linkedin.com/in/abhinil-kumar-00279220b",
 			"image": "abhinil.jpg",
-			"mail": ""
+			"mail": "abhinilkumar@gmail.com "
 		},
 		{
 			"name": "Kirti Choudhary",
 			"des": "Design Team Member",
-			"fb": "",
-			"linkedin": "",
+			"fb": "https://www.facebook.com/profile.php?id=100049997417514",
+			"linkedin": "https://www.linkedin.com/in/kirti-choudhary-386347204",
 			"image": "kirti.jpg",
-			"mail": ""
+			"mail": "darakirti@gmail.com"
 		},
 		{
 			"name": "Navya Choudhary",
 			"des": "Design Team Member",
-			"fb": "",
+			"fb": "https://www.facebook.com/navya.choudhary.35110418",
 			"linkedin": "",
 			"image": "navya.jpg",
-			"mail": ""
+			"mail": "navyachoudhary2010@gmail.com"
 		}
 	]
 }
