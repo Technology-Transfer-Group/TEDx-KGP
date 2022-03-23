@@ -29,6 +29,22 @@ body {
 	padding-right: 0rem;
 }
 
+.navbarr {
+	display: flex;
+	padding: 1rem 2rem;
+	justify-content: space-between;
+}
+
+.navbar-toggler {
+	width: 3rem;
+}
+
+
+#collapseNav {
+	/* display: flex; */
+	justify-content: end;
+}
+
 .video {
 	width: 100vw;
 	/* padding: 5rem; */

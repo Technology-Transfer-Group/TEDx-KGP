@@ -19,14 +19,16 @@
 </head>
 <body ng-app="app">
     
-    <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
+    <div class="navbarr sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
         <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
+        <div class="space"></div>
+
         <div class="collapse navbar-collapse" id="collapseNav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-0">
                 <li class="nav-item active">
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#themeDiv">Home</a>
                 </li>
@@ -46,49 +48,11 @@
                     <a class="nav-link scrollable"  data-toggle="collapse" data-target=".navbar-collapse" href="#getInvolved">Get Involved</a>
                 </li>
             </ul>
-            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-                <li class="nav-item media-icons notif">
-                    <a data-toggle="modal" data-target="#modalNotif" class="nav-link relDiv" href="">
-                        <i class="fa fa-bell" aria-hidden="true"></i>
-                        <span id="circleDot"></span>
-                    </a>
-                </li>
-                <li class="nav-item media-icons">
-                	<a class="nav-link" href="https://www.facebook.com/TEDxIITKharagpur/">
-                		<i class="fa fa-facebook-official" aria-hidden="true"></i>
-                	</a>
-                </li>
-                <li class="nav-item media-icons">
-                	<a class="nav-link" href="https://www.instagram.com/tedxiitkharagpur/?hl=en">
-                		<i class="fa fa-instagram" aria-hidden="true"></i>
-                	</a>
-                </li>
-        	</ul>
+            
         </div>
     </div>
 
-    <div id="modalNotif" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content custom">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F1816654938469638%2F&width=560&show_text=false&height=314&appId" width="560" height="315" style="border:none;overflow:hidden; position: absolute; left: -50%; margin-left: 70%;" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-
-            </div>
-            <!-- Modal content-->
-            <!-- <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div> -->
-
-         </div>
-    </div>
+   
 
     <div class="container-fluid nvbr">
         <div class="row navDiv" id="themeDiv">
