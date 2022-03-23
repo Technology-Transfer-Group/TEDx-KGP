@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="theme-color" content="#a51e15" />
+    <meta name="theme-color" content="#f00" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>TEDxIITKharagpur | 2022</title>
     <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
@@ -84,7 +84,7 @@
          </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid nvbr">
         <div class="row navDiv" id="themeDiv">
             <div id="themeOverlay">
 
@@ -104,8 +104,6 @@
             </div>
 
         </div>
-        <div class="row navDiv" id="about">
-            </div>
         </div>
         <div class="row" id="about">
             <div class="card col-sm-12 col-md-12">
@@ -137,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12" id="comments" ng-controller="reviewsController">
+            <!-- <div class="col-md-12 col-sm-12" id="comments" ng-controller="reviewsController">
                 <h4 class="red">What people say about us...</h4>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -157,7 +155,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
         <br><br>
         <!-- <div id="cspeakers" class="navDiv">
@@ -203,7 +201,7 @@
 	   <div id="cspeakers" class="navDiv">
             <div class="text-center">
                 <h1>Current Speakers</h1>
-		    <h2>Coming soon</h2>
+		        <h2>Coming soon</h2>
             </div>
             <div class="row" ng-controller="cspeakersController">
                 <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in cspeakers | orderBy:'rank'">
@@ -248,7 +246,7 @@
             <div class="text-center">
                 <h1>Previous Speakers</h1>
             </div>
-            <div class="row" ng-controller="speakersController">
+            <div class="row pastspeakers" ng-controller="speakersController">
                 <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="s in speakers">
                     <div class="our-team">
                         <div class="pic">

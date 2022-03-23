@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+	background: #000 !important;
+}
+
+*::selection {
+	background: #f00 !important;
+	color: white !important;
+}
+
+.bg-dark {
+	background: #000 !important;
+}
+
+.nvbr {
+	background: #000 !important;
+}
+
 .media-icons {
 	padding: 8px;
 }
 
 .media-icons .fa {
-	font-size: 1.5rem
+	font-size: 1.5rem;
 }
 
 .titleDiv {
@@ -13,7 +30,7 @@
 }
 
 #themeDiv {
-	background: url(../images/tedx19bg.jpg) center left ;
+	background: url(../images/bg1.jpg) center left ;
 	-webkit-background-size: 50%;
 	-moz-background-size: 50%;
 	-o-background-size: 50%;
@@ -91,7 +108,7 @@
 #footer {
 	margin-top: 50px;
 	padding: 30px 20px;
-	background-color: #000;
+	background-color: #111;
 }
 
 #footer a {
@@ -133,6 +150,13 @@
 	color: rgb(230, 43, 30);
 }
 
+.nav-item>.active {
+	background: white !important;
+}
+
+.nav-item:hover {
+	outline-color: #f00;
+}
 
 .overlayspea {
 	opacity: 0;
@@ -151,9 +175,13 @@
 	color: rgb(230,43,30);
 }
 
+#about {
+	background: #000;
+}
 
-
-
+.card {
+	background: #000 !important;
+}
 
 .cursive {
 	font-family: "Courier New", Courier, monospace;
@@ -194,6 +222,10 @@
 
 body {
 	overflow-x: hidden;
+}
+
+.pastspeakers {
+	margin: 0 2rem;
 }
 
 .banTitle {
@@ -291,7 +323,7 @@ background: #000;
 }
 
 .nav-link {
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .scrollable:hover {
