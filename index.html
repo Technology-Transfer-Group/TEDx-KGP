@@ -8,11 +8,17 @@
 	<link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    <link
+  href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+  rel="stylesheet"
+/>
 
 	<link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 </head>
 <body ng-app="app">
+    
     <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
         <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,6 +111,29 @@
 
         </div>
         </div>
+
+        <div class="video">
+            <video
+                id="my-video"
+                class="video-js vjs-theme-city"
+                controls
+                preload="auto"
+                width="700"
+                height="500"
+                poster="./public/images/showcase.jpg"
+                data-setup="{}"
+            >
+                <source src="./public/images/showcasevideo.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                >
+                </p>
+            </video>
+        </div>
+
         <div class="row" id="about">
             <div class="card col-sm-12 col-md-12">
                 <div class="card-header">
@@ -197,7 +226,8 @@
                 </div>
             </div>
         </div> -->
-	
+        
+        
 	   <div id="cspeakers" class="navDiv">
             <div class="text-center">
                 <h1>Current Speakers</h1>
@@ -391,5 +421,6 @@
     <script type="text/javascript" src="external/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="external/js/angular.min.js"></script>
     <script type="text/javascript" src="public/js/home.js"></script>
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
 </body>
 </html>

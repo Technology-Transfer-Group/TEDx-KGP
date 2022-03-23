@@ -29,6 +29,21 @@ body {
 	padding-right: 0rem;
 }
 
+.video {
+	width: 100vw;
+	/* padding: 5rem; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+.video .text {
+	width: 50%;
+	padding: 2rem;
+	font-size: 2.3rem;
+}
+
 #themeDiv {
 	background: url(../images/bg1.jpg) center left ;
 	-webkit-background-size: 50%;
@@ -176,7 +191,17 @@ body {
 }
 
 #about {
+	padding: 0 2rem;
 	background: #000;
+}
+
+.vjs-big-play-button {
+	/* Align center */
+    left: 50% !important;
+    top: 50% !important;
+	transform: translate(-50%, -50%);
+    /* margin-left: -($big-play-width / 2) !important;
+    margin-top: -($big-play-height / 2) !important;  */
 }
 
 .card {
