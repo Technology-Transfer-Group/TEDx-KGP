@@ -82,6 +82,12 @@ app.controller('reviewsController', function($scope, $http) {
 //     }
 // }
 
+// smooth scrolling
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('[data-scroll-container]'),
+//     smooth: true
+// })
+
 function navStatus() {
     if (window.pageYOffset > 150) {
         $('.navbar').removeClass('topNav')
