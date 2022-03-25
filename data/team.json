@@ -47,6 +47,54 @@
 			"linkedin": "https://www.linkedin.com/in/shivani-vasam/",
 			"image": "shivani.jpg",
 			"mail": "vasamshivani07@gmail.com"
+		},
+		{
+			"name": "Tanmay Malatkar",
+			"fb": "https://www.facebook.com/tanmay.malatkar",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/mwlite/in/tanmay-malatkar-ba023a1b9",
+			"image": "tanmay.png",
+			"mail": "tmalatkar14@gmail.com"
+		},
+		{
+			"name": "Yash Jadhav",
+			"fb": "https://www.facebook.com/profile.php?id=100008659692398",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/yash-jadhav-305711204",
+			"image": "yash.jpg",
+			"mail": "7yashjadhav@gmail.com"
+		},
+		{
+			"name": "Lavesh Kasodekar",
+			"fb": "",
+			"des": "Core Team Member",
+			"linkedin": "",
+			"image": "lavesh.jpg",
+			"mail": "Laveshkasodekar@gmail.com"
+		},
+		{
+			"name": "Md Nematullah",
+			"fb": "https://www.facebook.com/zeeshan.ahmmad.71",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/md-nematullah-b941651bb/",
+			"image": "md.jpg",
+			"mail": "mdnematullah3105@gmail.com"
+		},
+		{
+			"name": "Vaibhav Jalani",
+			"fb": "https://www.facebook.com/vaibhav.jalani.7",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/vaibhavjalani",
+			"image": "vaibhav.jpg",
+			"mail": "jalani.vaibhav@gmail.com"
+		},
+		{
+			"name": "Mainkaraj Todawat",
+			"fb": "https://www.facebook.com/mainkaraj.todawat.5",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/mainka-raj-todawat-091692209",
+			"image": "mainkaraj.jpg",
+			"mail": "monitodawat2001@gmail.com"
 		}
                       
 	],
@@ -78,7 +126,7 @@
 		{
 			"name": "Shubham Kumar",
 			"fb": "https://www.facebook.com/profile.php?id=100058802820952",
-			"des": "Web Team Head",
+			"des": "Web Team Member",
 			"linkedin": "https://www.linkedin.com/in/shubham-kumar-3443ba172/",
 			"image": "shubham.jpg",
 			"mail": "shubhamkumar12000@gmail.com"
@@ -97,7 +145,7 @@
 			"name": "Abhinil Kumar",
 			"des": "Design Team Member",
 			"fb": "https://www.facebook.com/abhinil07",
-			"linkedin": "https://www.linkedin.com/in/abhinil-kumar-00279220b",
+			"linkedin": "https://www.linkedin.com/in/abhinilkumar07/",
 			"image": "abhinil.jpg",
 			"mail": "abhinilkumar@gmail.com "
 		},
@@ -116,6 +164,14 @@
 			"linkedin": "",
 			"image": "navya.jpg",
 			"mail": "navyachoudhary2010@gmail.com"
+		},
+		{
+			"name": "Ritik Baba",
+			"des": "Media Team Member",
+			"fb": "https://www.facebook.com/ritikbabaiitkgp",
+			"linkedin": "https://www.linkedin.com/in/ritik-baba-448888213/",
+			"image": "ritik.jpg",
+			"mail": "ritikbaba28@gmail.com "
 		}
 	]
 }
