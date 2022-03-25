@@ -946,8 +946,8 @@
         
 	   <div id="cspeakers" class="navDiv" data-scroll-section>
             <div class="text-center">
-                <h1>Current Speakers</h1>
-		        <h2>Coming soon</h2>
+                <h1><span class="emphasis">Current</span> Speakers</h1>
+		        <h2 class="muted">Coming soon</h2>
             </div>
             <div class="row" ng-controller="cspeakersController">
                 <div data-toggle="modal" data-target="#cspeakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="m in cspeakers | orderBy:'rank'">
@@ -990,7 +990,7 @@
         
 	<div id="speakers" class="navDiv" data-scroll-section>
             <div class="text-center">
-                <h1>Previous Speakers</h1>
+                <h1><span class="emphasis">Previous</span> Speakers</h1>
             </div>
             <div class="row pastspeakers" ng-controller="speakersController">
                 <div data-toggle="modal" data-target="#speakMod{{$index}}" class="col-sm-12 col-md-3" ng-repeat="s in speakers">
@@ -1073,7 +1073,7 @@
             </div> -->
             <div id="partin">
                 <div class="text-center">
-                    <h1>Reasons to Partner with Us</h1>
+                    <h1>Reasons to <span class="emphasis">Partner</span> with Us</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 text-center">

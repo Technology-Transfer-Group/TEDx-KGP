@@ -26,7 +26,7 @@ body {
 .scrolls {
 	display: flex;
 	flex-direction: column;
-	color: #333;
+	/* color: #333; */
 	font-weight: 400;
 }
 
@@ -36,14 +36,21 @@ body {
 	left: -20rem;
 	overflow: visible;
 	white-space: nowrap;
+	color: #333;
+}
+
+.scrolleffect1 {
+	display: none;
 }
 
 .scrolleffect2 {
 	transform: translateY(1.2em);
+	display: none;
 }
 
 .scrolleffect3 {
 	transform: translateY(2.4em);
+	display: none;
 }
 .scrolleffect4 {
 	transform: translateY(3.6em);
@@ -59,15 +66,19 @@ body {
 }
 .scrolleffect8 {
 	transform: translateY(8.4em);
+	display: none;
 }
 .scrolleffect9 {
 	transform: translateY(9.6em);
+	display: none;
 }
 .scrolleffect10 {
 	transform: translateY(10.8em);
+	display: none;
 }
 .scrolleffect11 {
 	transform: translateY(12em);
+	display: none;
 }
 
 .media-icons {
@@ -105,6 +116,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 4rem 0;
+}
+
+.video video {
+	border: 2px solid #f00;
+}
+
+.muted {
+	color: #333;
 }
 
 .video .text {
