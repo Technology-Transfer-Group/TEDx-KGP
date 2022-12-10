@@ -1,6 +1,34 @@
 {
 	"data": [
 		{
+			"name": "Manas Patnaik",
+			"short": "Youtuber, Teacher",
+			"long": "Youtuber, Teacher, Digital Educator, Mechanical Engineer",
+			"desc": "Manas Patnaik is a mechanical engineer, teacher and a very well known digital educator. He started his own YouTube channel to provide quality educational content free of cost, starting with Engineering Drawing, followed by other mechanical engineering subjects as well. Awarded as “The Most Promising Teacher” by Rungta College of Engineering & Technology, Raipur, he is popular among his students as 'The Engineering Drawing Guru'",
+			"image": "manas.png"
+		},
+		{
+			"name": "Simerjeet Singh",
+			"short": "Motivational Speaker",
+			"long": "Motivational Speaker, Mindset Coach",
+			"desc": "With over 1.4 million subscribers on YouTube and 65 Million+ Views of his inspirational videos; Simerjeet Singh is a highly sought after International Motivational Speaker and Mindset Coach who has partnered with over 300 organizations globally over the last 14 years inspiring them to take action on the things that truly matter in their lives. Singh was honored with the prestigious “Global Excellence Award” (GEA) in Motivational Speaking in 2019 and is widely listed among the top thought leaders and inspirational speakers globally. He has been speaking on innovation, culture, leadership and change at conferences around the world. An unconventional speaker, Singh helps leaders and organizations challenge their beliefs and thrive in a constantly changing era while encouraging others to make bold course corrections in both their personal and professional lives. ‘Today’ is his favourite day of the week, and ‘now’ is his favourite best place to be! He believes no dream is too big, no place is too small, and no time is better than ‘now’!",
+			"image": "Simerjeet.png"
+		},
+		{
+			"name": "Akash Gupta",
+			"short": "Co-Founder & CEO, Zypp Electric",
+			"long": "",
+			"desc": "Akash Gupta is the Founder of Zypp, India’s first dock-less electric scooter sharing app. Akash is responsible for building the leading electric scooter sharing venture from the grounds up. His vision for Zypp is to solve micro-mobility in cities in a convenient, affordable, and eco-friendly way, thereby building more liveable cities and a sustainable India. After a Bachelor of Engineering in Computer Science, Akash went on to pursue his MBA from IMT Ghaziabad in 2008. Before founding Zypp at the intersection of green-tech & EV-tech, Akash was with MobiKwik as Vice President & Head of Marketing and was instrumental in placing MobiKwik among the leading Fintech startups in India. Akash leads the 4G launch and nationwide acquisitions for 4G at Airtel.",
+			"image": "Akash.png"
+		},
+		{
+			"name": "Kartik Kumar",
+			"short": "Co-founder & CEO Satsearch.com",
+			"long": "",
+			"desc": "He is a co-founder of satsearch.com, which is a global marketplace for the space business. He is an Aerospace Engineer and Planetary Scientist who has worked on a number of projects ranging from space mission design to planetary ring modelling and simulation. His team was developed at the European Space Agency's Business Incubation Centre in Noordwijk, the Netherlands. His company, Satsearch, assists space engineers in sourcing components, subsystems, platforms, and services from global suppliers for ground, launch, and space. His ambition for Satsearch is to make the space sector accessible to anyone. His company assisted dozens of organizations in the space industry in improving their sourcing.",
+			"image": "kartik.jpg"
+		},
+		{
 			"name": " Alyssa Carson",
 			"short": "American Space Enthusiast",
 			"long": "",
