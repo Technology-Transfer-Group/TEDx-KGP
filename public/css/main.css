@@ -761,3 +761,49 @@ sup{
   75% {transform: rotate(-5deg);}
   100% {transform: rotate(0deg);}
 }
+
+.titlehover{
+	border-radius: 15px;
+}
+.titlehover:hover{
+	background-color: #000000aa;
+}
+
+.pgborder{
+	background-color: #8B0000;
+	width: 100vw;
+	height: 2px;
+	box-shadow: 0 0px 20px 5px #8b00008d;
+}
+
+.hdn{
+	margin-bottom: 20px;
+}
+.cardd{
+	scale: 0.95;
+	border-radius: 10px;
+	background-color: #0000003d;
+	transition: 0.2s;
+
+}
+.cardd:hover{
+	scale: 1.00;
+	background-color: #000000a5;
+}
+
+.footer-flex{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: auto;
+}
+
+.footer-23{
+	flex: 2;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.footer-23{
+	flex: 1;
+}
