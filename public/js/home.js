@@ -12,6 +12,24 @@ app.controller('cspeakersController', function($scope, $http) {
     })
 })
 
+// app.controller('speakersController', function($scope, $http) {
+//     $http.get('data/speakers.json').then(function(results) {
+//         $scope.speakers = results.data.data
+//     })
+// }).run(function() {
+//     var elements = document.getElementsByClassName('navDiv')
+//     for(var i = 0; i < elements.length; i++) {
+//         positions.push(elements[i].offsetTop)
+//     }
+//     if (window.innerWidth > 480){
+//         positions[3]+=720
+//     	positions[4]+=1800
+//     } else {
+//         positions[3]+=4000
+//     	positions[4]+=4000
+//     }
+// })
+
 app.controller('speakersController', function($scope, $http) {
     $http.get('data/speakers.json').then(function(results) {
         $scope.speakers = results.data.data
@@ -29,6 +47,8 @@ app.controller('speakersController', function($scope, $http) {
     	positions[4]+=4000
     }
 })
+
+
 app.controller('reviewsController', function($scope, $http) {
     $http.get('data/reviews.json').then(function(results) {
         $scope.reviews = results.data.data
