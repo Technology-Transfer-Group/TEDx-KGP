@@ -1,6 +1,7 @@
 {
 	"core": [
 		{
+
 			"name": "Gayatriamulya Viswanathan",
 			"fb": "https://www.facebook.com/profile.php?id=100074076524803",
 			"insta": "",
@@ -49,11 +50,26 @@
 			"image": "Siddharth-S-21IM30019.jpg",
 			"mail": "siddharth.s.iitkgp@gmail.com",
 			"corhead": "c"
+=======
+			"name": "Aditi Maurya",
+			"fb": "https://www.facebook.com/messages/t/100056926354845/",
+			"des": "Core Team Head",
+			"linkedin": "https://www.linkedin.com/in/aditi-maurya-a7a7a3196/",
+			"image": "aditi.jpg",
+			"mail": "aditi.2303.tanu@gmail.com"
 		},
-        {
-			"name": "Koushiki Mridha",
-			"fb": "https://www.facebook.com/profile.php?id=100010590158130&mibextid=LQQJ4d",
-			"insta": "https://www.instagram.com/_kartier_klass?igsh=MWVkN3Z2NTZ3eHNyNA%3D%3D&utm_source=qr",
+		{
+			"name": "Tulsi Bimani",
+			"fb": "https://www.facebook.com/tulsi.bhimani.9",
+			"des": "Core Team Head",
+			"linkedin": "https://www.linkedin.com/in/tulsi-bhimani-b133b5195/",
+			"image": "tulsi.jpg",
+			"mail": "tnileshbhaibhimani@gmail.com"
+
+		},
+		{
+			"name": "Vedanti Bhongade",
+			"fb": "https://www.facebook.com/vedanti.bhongade.9",
 			"des": "Core Team Head",
 			"linkedin": "http://linkedin.com/in/koushikimridha",
 			"image": "Koushiki",
@@ -69,36 +85,95 @@
 			"image": "Sanchay Baranwal.jpg",
 			"mail": "baranwalsanchay01@gmail.com",
 			"corhead": "h"
+
+			"linkedin": "https://www.linkedin.com/in/vedanti-bhongade-44b2491b7/",
+			"image": "vedanti.jpg",
+			"mail": "vedantibhongade@gmail.com"
 		},
-        {
-			"name": "Shubham Pingale",
-			"fb": "",
-			"insta": "https://www.instagram.com/alwayz_shubh?igsh=MTFvb2I2MzAxZm5icg==",
+		{
+			"name": "Sagar Varade",
+			"fb": "https://www.facebook.com/sagar.varade.3720",
+			"des": "Core Team Head",
+			"linkedin": "https://www.linkedin.com/in/sagar-varade-594aa1198/",
+			"image": "sagar.jpg",
+			"mail": "sagar18052002@gmail.com"
+		},
+		{
+			"name": "Aman Mishra",
+			"fb": "https://www.facebook.com/profile.php?id=100026014789211",
 			"des": "Core Team Head",
 			"linkedin": "https://www.linkedin.com/in/shubham-pingale-iit/",
 			"image": "Shubham Pingale.jpg",
 			"mail": "shubham.pingale.iitkgp@gmail.com",
 			"corhead": "h"
+			"linkedin": "https://www.linkedin.com/in/aman005/",
+			"image": "aman.jpg",
+			"mail": "aman005mishra@gmail.com"
 		},
-        {
-			"name": "Sudhagani Praneeth Kumar",
-			"fb": "",
-			"insta": "https://www.instagram.com/praneeth_1610/",
+		{
+			"name": "Shivani Vasam",
+			"fb": "https://www.facebook.com/shivani.vasam.16",
 			"des": "Core Team Head",
 			"linkedin": "https://in.linkedin.com/in/praneeth-kumar-sudhagani-7174b726b",
 			"image": "Praneeth Kumar.jpg",
 			"mail": "sudhaganipraneethkumar@gmail.com",
 			"corhead": "h"
+			"linkedin": "https://www.linkedin.com/in/shivani-vasam/",
+			"image": "shivani.jpg",
+			"mail": "vasamshivani07@gmail.com"
 		},
-        {
-			"name": "Vaishnavi Gupta",
+		{
+			"name": "Tanmay Malatkar",
+			"fb": "https://www.facebook.com/tanmay.malatkar",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/mwlite/in/tanmay-malatkar-ba023a1b9",
+			"image": "tanmay.png",
+			"mail": "tmalatkar14@gmail.com"
+		},
+		{
+			"name": "Yash Jadhav",
+			"fb": "https://www.facebook.com/profile.php?id=100008659692398",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/yash-jadhav-305711204",
+			"image": "yash.jpg",
+			"mail": "7yashjadhav@gmail.com"
+		},
+		{
+			"name": "Lavesh Kasodekar",
 			"fb": "",
-			"insta": "",
-			"des": "Core Team Head",
+			"des": "Core Team Member",
 			"linkedin": "",
+
 			"image": "Vaishnavi 2.png",
 			"mail": "",
 			"corhead": "h"
+
+			"image": "lavesh.jpg",
+			"mail": "Laveshkasodekar@gmail.com"
+		},
+		{
+			"name": "Md Nematullah",
+			"fb": "https://www.facebook.com/zeeshan.ahmmad.71",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/md-nematullah-b941651bb/",
+			"image": "md.jpg",
+			"mail": "mdnematullah3105@gmail.com"
+		},
+		{
+			"name": "Vaibhav Jalani",
+			"fb": "https://www.facebook.com/vaibhav.jalani.7",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/vaibhavjalani",
+			"image": "vaibhav.jpg",
+			"mail": "jalani.vaibhav@gmail.com"
+		},
+		{
+			"name": "Mainkaraj Todawat",
+			"fb": "https://www.facebook.com/mainkaraj.todawat.5",
+			"des": "Core Team Member",
+			"linkedin": "https://www.linkedin.com/in/mainka-raj-todawat-091692209",
+			"image": "mainkaraj.jpg",
+			"mail": "monitodawat2001@gmail.com"
 		}
                       
 	],
@@ -122,10 +197,42 @@
 			"image": "Pranathi Taddi.jpg",
 			"mail": "",
 			"corhead": "h"
+
+			"name": "Manish Kumar Das",
+			"fb": "https://www.facebook.com/iammkdmanish/",
+			"des": "Web Team Head",
+			"linkedin": "https://www.linkedin.com/in/manishkumardas3581321/",
+			"image": "manish.jpg",
+			"mail": "ammanishkumardas@gmail.com"
+		},
+		{
+			"name": "Tejas Ambhore",
+			"fb": "https://www.facebook.com/tejas.ambhore.77",
+			"des": "Web Team Member",
+			"linkedin": "https://www.linkedin.com/in/tejas-ambhore-3634ba206",
+			"image": "tejas.jpg",
+			"mail": "Tejasam2020@gmail.com"
+		},
+		{
+			"name": "Ankit Garg",
+			"fb": "https://www.facebook.com/profile.php?id=100057610597075",
+			"des": "Web Team Member",
+			"linkedin": "https://www.linkedin.com/in/ankit-garg-47208620a/",
+			"image": "ankit.jpg",
+			"mail": "1234ankitgarg@gmail.com"
+		},
+		{
+			"name": "Shubham Kumar",
+			"fb": "https://www.facebook.com/profile.php?id=100058802820952",
+			"des": "Web Team Member",
+			"linkedin": "https://www.linkedin.com/in/shubham-kumar-3443ba172/",
+			"image": "shubham.jpg",
+			"mail": "shubhamkumar12000@gmail.com"
 		}
 	],
 	"designmedia": [
 		{
+
 			"name": "Priyanshu Kumar",
 			"des": "Design and Media Coordinator",
 			"fb": "https://www.facebook.com/priyanshu.priyadarshi.564?mibextid=ZbWKwL",
@@ -164,6 +271,45 @@
 			"image": "Bhuvan.jpg",
 			"mail": "bhuvanrajnaik@gmail.com",
 			"corhead": "h"
+
+			"name": "Krishnakant Rawat",
+			"des": "Design and Media Head",
+			"fb": "https://www.facebook.com/krishnakant.rawat.587/",
+			"linkedin": "https://www.linkedin.com/in/krishnakant-rawat/",
+			"image": "krishnakant.png",
+			"mail": "krisrawat26@gmail.com"
+		},
+		{
+			"name": "Abhinil Kumar",
+			"des": "Design Team Member",
+			"fb": "https://www.facebook.com/abhinil07",
+			"linkedin": "https://www.linkedin.com/in/abhinilkumar07/",
+			"image": "abhinil.jpg",
+			"mail": "abhinilkumar@gmail.com "
+		},
+		{
+			"name": "Kirti Choudhary",
+			"des": "Design Team Member",
+			"fb": "https://www.facebook.com/profile.php?id=100049997417514",
+			"linkedin": "https://www.linkedin.com/in/kirti-choudhary-386347204",
+			"image": "kirti.jpg",
+			"mail": "darakirti@gmail.com"
+		},
+		{
+			"name": "Navya Choudhary",
+			"des": "Design Team Member",
+			"fb": "https://www.facebook.com/navya.choudhary.35110418",
+			"linkedin": "",
+			"image": "navya.jpg",
+			"mail": "navyachoudhary2010@gmail.com"
+		},
+		{
+			"name": "Ritik Baba",
+			"des": "Media Team Member",
+			"fb": "https://www.facebook.com/ritikbabaiitkgp",
+			"linkedin": "https://www.linkedin.com/in/ritik-baba-448888213/",
+			"image": "ritik.jpg",
+			"mail": "ritikbaba28@gmail.com "
 		}
 	]
 }
