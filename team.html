@@ -44,9 +44,9 @@
         </div>
     </div>
     <div class="container" style="padding-top:5em; " ng-controller="teamController">
-        <h1><span class="emphasis">Previous License</span> Holder</h1>
+        <!-- <h1><span class="emphasis">Previous License</span> Holder</h1> -->
         <div class="row">
-            <div class="col-sm-12 col-md-3 col-md-offset-9">
+            <!-- <div class="col-sm-12 col-md-3 col-md-offset-9">
                 <div class="my-team">
                     <div class="pic">
                         <img src="public/images/team/yash.jpg">
@@ -54,13 +54,13 @@
                     <div class="team-content">
                         <h3 class="title">Harshal Gaikwad</h3>
                         <ul class="social">
-                            <!-- <li><a target="_blank" href="mailto:7yashjadhav@gmail.com "><i class="fa fa-envelope"></i></a></li> -->
+                            <li><a target="_blank" href="mailto:7yashjadhav@gmail.com "><i class="fa fa-envelope"></i></a></li>
                             <li><a target="_blank" href="https://www.facebook.com/harshal.gaikwad.33865"><i class="fa fa-facebook"></i></a></li>
                             <li><a target="_blank" href="https://www.linkedin.com/in/harshal-gaikwad-840420192/"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- <h1>Co Organizer</h1>
         <div class="row">
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div> -->
-        <h1><span class="emphasis">Core</span> Team</h1>
+        <!-- <h1><span class="emphasis">Core</span> Team</h1>
         <div class="row">
             <div class="col-md-3 col-sm-12" ng-repeat="m in coreteam">
                 <div class="my-team">
@@ -121,6 +121,64 @@
         <h1><span class="emphasis">Web</span> Team</h1>
         <div class="row">
             <div class="col-md-3 col-sm-12" ng-repeat="m in webteam">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/{{m.image}}">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
+                        <ul class="social">
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <h1>Senior Coordinators</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in scoordies">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/{{m.image}}">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
+                        <ul class="social">
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Coordinators</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in coordinators">
+                <div class="my-team">
+                    <div class="pic">
+                        <img src="public/images/team/{{m.image}}">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">{{m.name}}</h3>
+                        <span class="post">{{m.des || ""}}</span>
+                        <ul class="social">
+                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Heads</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-12" ng-repeat="m in heads">
                 <div class="my-team">
                     <div class="pic">
                         <img src="public/images/team/{{m.image}}">
