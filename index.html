@@ -91,7 +91,7 @@
               class="nav-link scrollable"
               data-toggle="collapse"
               data-target=".navbar-collapse"
-              href="#cspeakers"
+              href="cspeakershead"
               >Current Speakers</a
             >
           </li>
@@ -100,7 +100,7 @@
               class="nav-link scrollable"
               data-toggle="collapse"
               data-target=".navbar-collapse"
-              href="#speakers"
+              href="previouspeakershead"
               >Previous Speakers</a
             >
           </li>
@@ -570,7 +570,7 @@
         </div> -->
     <div id="cspeakers" class="navDiv" data-scroll-section>
       <div class="text-center">
-        <h1><span class="emphasis">Current</span> Speakers</h1>
+        <h1 id="cspeakershead"><span class="emphasis">Current</span> Speakers</h1>
 <!--         <h2 class="muted">Coming soon</h2> -->
       </div>
       <div class="row" ng-controller="cspeakersController">
@@ -626,7 +626,7 @@
 
     <div id="speakers" class="navDiv" data-scroll-section>
       <div class="text-center">
-        <h1><span class="emphasis">Previous</span> Speakers</h1>
+        <h1 id="previouspeakershead><span class="emphasis">Previous</span> Speakers</h1>
       </div>
       <div class="row pastspeakers" ng-controller="speakersController">
         <div
