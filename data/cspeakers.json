@@ -30,6 +30,39 @@
 			"desc": "",
 			"image": "CaptDinisha.png"
 		},
+	
+		{
+			"name": "Keval Sojitra",
+			"short": "Founder: Studio Vihara, Architech",
+			"long": "",
+			"desc": "",
+			"image": "KevalSojitra.jpg"
+		},
+    {
+			"name": "Dr Satobhisha Mukherjee",
+			"short": "Founder and CEO, FormulaRx",
+			"long": "",
+			"desc": "'",
+			"image": "Satobhisha.png"
+		},
+		{
+			"name": "Sougata Bhattacharjee",
+			"short": "Samsung: Senior Engg./Manager",
+			"long": "",
+			"desc": "",
+			"image": "Sougata_Pic.jpg"
+		},
+		{
+			"name": "Sudipta Ghosh",
+			"short": "Partner at PwC",
+			"long": "",
+			"desc": "",
+			"image": "SudiptaGhosh.jpg"
+		}
+		
+	
+
+
 		
 		
 	]
