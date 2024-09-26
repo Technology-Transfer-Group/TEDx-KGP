@@ -3,67 +3,61 @@
 		{
 			"name": "GM Akash Ganeshan",
 			"short": "Chess Grandmaster",
-			"long": "",
-			"desc": "",
+			"long": "Chess Grandmaster",
+			"desc": "India’s 66th Chess Grandmaster, the youngest National Champion in 2012, has represented India in over 15 countries, including the World Cup. He coached the Indian Women’s B Team to 8th place at the 2022 Chess Olympiad and led the Indian team to gold and silver at the Asian Juniors. His accolades include wins at various international chess open and multiple medals in Commonwealth and World Junior events.",
 			"image": "AkashGaneshan.jpg"
 		},
 		
                 {
 			"name": "Amresh Pratap Yadav",
 		         "short": "Johnson Controls: GM/Lead",
-			"long": "",
-			"desc": "",
+			"long": "Johnson Controls: GM/Lead",
+			"desc": "Amresh Pratap Yadav with 11+ years in Employer Branding, is the General Manager at Johnson Controls, driving innovative workplace practices. An entrepreneur, he founded Leczon.com and HappyRailing.com and is shortlisted for "40 Under 40" by World Brand Affairs. Amresh holds a Master's from the University of Leicester and has contributed to the National Entrepreneurship Network and Indore Management Association.",
 			"image": "AmreshPratapYadav.png"
 		},
                 {
 			
 		       "name": "Anshuman Jain",
 			"short": "BigCommerce: Director",
-			"long": "",
-			"desc": "",
+			"long": "BigCommerce: Director",
+			"desc": "Anshuman Jain with 15 years of eCommerce experience, is the Country Director at BigCommerce, where he drives business growth through innovative eCommerce solutions. He specializes in enhancing digital presence and sales strategies for merchants, agencies, and partners across D2C, B2B, and cross-border sales.",
 			"image": "Anshufinal.jpg"
 		},
 		{
 		        "name": "Capt Dinisha Bhardwaj Singh",
 			"short": "Education and Social Entrepreneur",
-			"long": "",
-			"desc": "",
+			"long": "Education and Social Entrepreneur",
+			"desc": "One of the first female officers in the Indian Army, transitioned from a distinguished military career to a leading educationist, bringing resilience, discipline, and leadership from the battlefield to the classroom.",
 			"image": "CaptDinisha.jpeg"
 		},
 	
 		{
 			"name": "Keval Sojitra",
-			"short": "Founder: Studio Vihara, Architech",
-			"long": "",
-			"desc": "",
+			"short": "Founder: Studio Vihara, Architect",
+			"long": "Founder: Studio Vihara, Architect",
+			"desc": "IIT Kharagpur alumnus and co-founder of HeadLess design studio, creates innovative space concepts through collaboration, research, and experimentation, making his design process engaging and inclusive.",
 			"image": "KevalSojitra.jpg"
 		},
     {
-			"name": "Dr Satobhisha Mukherjee",
+			"name": "Dr. Satobhisha Mukherjee",
 			"short": "Founder and CEO, FormulaRx",
-			"long": "",
-			"desc": "'",
+			"long": "Founder and CEO, FormulaRx",
+			"desc": "",
 			"image": "Satobisha.jpg"
 		},
 		{
 			"name": "Sougata Bhattacharjee",
 			"short": "Samsung: Senior Engg./Manager",
-			"long": "",
-			"desc": "",
+			"long": "Samsung: Senior Engg./Manager",
+			"desc": "A Senior Staff Engineer/Manager at Samsung Semiconductor India Research, has over 10 years of expertise in VLSI, IC, and chip design. An M.Tech graduate from BITS Pilani, he’s pursuing another in Blockchain from IIT Patna. A 2X TEDx speaker and LinkedIn Top Voice with 43,000+ followers, Sougata actively mentors the VLSI community, speaks at engineering colleges, and volunteers with CRY for social causes.",
 			"image": "Sougata_Pic.jpg"
 		},
 		{
 			"name": "Sudipta Ghosh",
 			"short": "Partner at PwC",
-			"long": "",
-			"desc": "",
+			"long": "Partner at PwC",
+			"desc": "A gold medalist from IIM Calcutta and silver medalist from IIT Kharagpur, leads Data Analytics and Cloud at PwC India with over 25 years of experience. He drives AI, Advanced Analytics, and Industry 4.0 solutions, especially in Digital Operations and Supply Chain. Sudipta is also a visiting faculty at IIM Calcutta and IIT Kharagpur, an advisory council member for PGDBA and SP Jain’s PGEMP, and a key member of the PwC Global Data & Analytics leadership team.",
 			"image": "SudiptaGhosh.jpg"
-		}
-		
-	
-
-
-		
-		
+		}		
 	]
 }
