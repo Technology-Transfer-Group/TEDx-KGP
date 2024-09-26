@@ -1,1 +1,18 @@
-
+{
+	"data": [
+		{
+			"name": "Manas Patnaik",
+			"short": "Youtuber, Teacher",
+			"long": "Youtuber, Teacher, Digital Educator, Mechanical Engineer",
+			"desc": "Manas Patnaik is a mechanical engineer, teacher and a very well known digital educator. He started his own YouTube channel to provide quality educational content free of cost, starting with Engineering Drawing, followed by other mechanical engineering subjects as well. Awarded as “The Most Promising Teacher” by Rungta College of Engineering & Technology, Raipur, he is popular among his students as 'The Engineering Drawing Guru'",
+			"image": "manas.png"
+		},
+    {
+			"name": "Manas Patnaik",
+			"short": "Youtuber, Teacher",
+			"long": "Youtuber, Teacher, Digital Educator, Mechanical Engineer",
+			"desc": "Manas Patnaik is a mechanical engineer, teacher and a very well known digital educator. He started his own YouTube channel to provide quality educational content free of cost, starting with Engineering Drawing, followed by other mechanical engineering subjects as well. Awarded as “The Most Promising Teacher” by Rungta College of Engineering & Technology, Raipur, he is popular among his students as 'The Engineering Drawing Guru'",
+			"image": "manas.png"
+		}	
+	]
+}
