@@ -120,7 +120,8 @@ function navStatus() {
 var scrollButtons = document.getElementsByClassName("scrollable");
 var themeDiv = document.getElementById("themeDiv");
 var aboutDiv = document.getElementById("about");
-var speakersDiv = document.getElementById("speakers");
+var cspeakersDiv = document.getElementById("cspeakershead");
+var speakersDiv = document.getElementById("previouspeakershead");
 var involveDiv = document.getElementById("getInvolved");
 scrollButtons[0].onclick = function(){
     themeDiv.scrollIntoView({behavior:"smooth", block:"end"});
@@ -129,9 +130,12 @@ scrollButtons[1].onclick = function(){
     aboutDiv.scrollIntoView({behavior:"smooth"});
 }
 scrollButtons[2].onclick = function(){
-    speakersDiv.scrollIntoView({behavior:"smooth", block:"start"});
+    cspeakersDiv.scrollIntoView({behavior:"smooth", block:"start"});
 }
 scrollButtons[3].onclick = function(){
+    speakersDiv.scrollIntoView({behavior:"smooth", block:"start"});
+}
+scrollButtons[4].onclick = function(){
     involveDiv.scrollIntoView({behavior:"smooth", block:"start"});
 }
 // Set the date we're counting down to
