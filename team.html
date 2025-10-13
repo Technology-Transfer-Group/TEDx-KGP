@@ -3,12 +3,272 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#a51e15" />
-    <title>TEDxIITKharagpur | 2024</title>
+    <title>TEDxIITKharagpur | 2025</title>
     <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
-    <link rel="stylesheet" type="text/css" href="public/css/team.css">
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .team-section {
+            padding: 80px 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .section-title .emphasis {
+            color: #e62b1e;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, #e62b1e, #ff6b5a);
+            border-radius: 2px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .team-card {
+            background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .team-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(145deg, rgba(230, 43, 30, 0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            pointer-events: none;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(230, 43, 30, 0.3);
+        }
+
+        .team-card:hover::before {
+            opacity: 1;
+        }
+
+        .card-image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .card-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+            filter: grayscale(50%);
+        }
+
+        .team-card:hover .card-image {
+            filter: grayscale(0%);
+            transform: scale(1.1);
+        }
+
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.8) 100%);
+            opacity: 0.6;
+            transition: opacity 0.4s ease;
+        }
+
+        .team-card:hover .card-overlay {
+            opacity: 0.3;
+        }
+
+        .card-content {
+            padding: 30px 25px;
+            text-align: center;
+            position: relative;
+        }
+
+        .member-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 0 10px 0;
+            transition: color 0.3s ease;
+        }
+
+        .team-card:hover .member-name {
+            color: #e62b1e;
+        }
+
+        .member-role {
+            font-size: 1rem;
+            color: #999;
+            margin-bottom: 20px;
+            display: block;
+            min-height: 48px;
+            line-height: 1.5;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-links li {
+            display: inline-block;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: #1a1a1a;
+            color: #fff;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid #2a2a2a;
+        }
+
+        .social-icon:hover {
+            background: #e62b1e;
+            border-color: #e62b1e;
+            color: #fff;
+            transform: translateY(-3px) rotate(5deg);
+            box-shadow: 0 5px 15px rgba(230, 43, 30, 0.4);
+        }
+
+        .social-icon.fa-facebook:hover {
+            background: #1877f2;
+            border-color: #1877f2;
+        }
+
+        .social-icon.fa-linkedin:hover {
+            background: #0077b5;
+            border-color: #0077b5;
+        }
+
+        .social-icon.fa-instagram:hover {
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+            border-color: #e6683c;
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .team-section {
+                padding: 50px 20px;
+            }
+        }
+
+        /* Navbar styling to match theme */
+        .navbarr {
+            background: #0a0a0a !important;
+            box-shadow: 0 2px 10px rgba(230, 43, 30, 0.2);
+        }
+
+        .navbar-brand img {
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover img {
+            transform: scale(1.05);
+        }
+
+        .nav-link {
+            color: #fff !important;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #e62b1e !important;
+        }
+
+        .nav-item.active .nav-link {
+            color: #e62b1e !important;
+        }
+
+        #footer {
+            background: #0a0a0a;
+            padding: 40px 20px 20px;
+            margin-top: 80px;
+        }
+
+        #footer h4 {
+            color: #e62b1e;
+            margin-bottom: 20px;
+        }
+
+        #footer a {
+            color: #999;
+            transition: color 0.3s ease;
+        }
+
+        #footer a:hover {
+            color: #e62b1e;
+            text-decoration: none;
+        }
+
+        #footer .fa {
+            font-size: 1.5rem;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body ng-app="app">
     <div class="navbarr sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
@@ -40,264 +300,81 @@
                     <a class="nav-link scrollable" href="index.html#getInvolved">Get Involved</a>
                 </li> 
             </ul>
-            
         </div>
     </div>
-    <div class="container" style="padding-top:5em; " ng-controller="teamController">
 
-        <!-- <h1><span class="emphasis">Previous License</span> Holder</h1> -->
-        <!-- <h1><span class="emphasis">License</span> Holder</h1> -->
-        <!-- <h1>Co Organizer</h1>
-        <div class="row">
-            <div class="col-sm-12 col-md-3 col-md-offset-9">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/arka.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Arka Mallik</h3>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/arkamallik" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/arkamallik/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:Arkamallik@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <h1><span class="emphasis">Core</span> Team</h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in coreteam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
+    <div ng-controller="teamController">
+        <!-- Coordinators Section -->
+        <section class="team-section">
+            <h1 class="section-title"><span class="emphasis">Coordinators</span></h1>
+            <div class="team-grid">
+                <div ng-repeat="m in coordinatorsteam">
+                    <div class="team-card">
+                        <div class="card-image-wrapper">
+                            <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="member-name">{{m.name}}</h3>
+                            <span class="member-role">{{m.des || "Team Member"}}</span>
+                            <ul class="social-links">
+                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank" class="social-icon fa fa-facebook"></a></li>
+                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank" class="social-icon fa fa-linkedin"></a></li>
+                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank" class="social-icon fa fa-instagram"></a></li>
+                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank" class="social-icon fa fa-envelope"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <h1><span class="emphasis">Design</span> and <span class="emphasis">Media</span> Team</h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in designmediateam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h1><span class="emphasis">Web</span> Team</h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in webteam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
+        </section>
+        
+        <!-- Heads Section -->
+        <section class="team-section">
+            <h1 class="section-title"><span class="emphasis">Heads</span></h1>
+            <div class="team-grid">
+                <div ng-repeat="m in headsteam">
+                    <div class="team-card">
+                        <div class="card-image-wrapper">
+                            <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="member-name">{{m.name}}</h3>
+                            <span class="member-role">{{m.des || "Team Member"}}</span>
+                            <ul class="social-links">
+                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank" class="social-icon fa fa-facebook"></a></li>
+                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank" class="social-icon fa fa-linkedin"></a></li>
+                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank" class="social-icon fa fa-instagram"></a></li>
+                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank" class="social-icon fa fa-envelope"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
-
-        <h1><span class="emphasis">Senior</span> Coordinators</h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in scoordiesteam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/currTeam/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h1><span class="emphasis">Coordinators</span> </h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in coordinatorsteam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/currTeam/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h1><span class="emphasis">Heads</span></h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12" ng-repeat="m in headsteam">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/currTeam/{{m.image}}">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">{{m.name}}</h3>
-                        <span class="post">{{m.des || ""}}</span>
-                        <ul class="social">
-                            <li><a href="{{m.fb}}" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="{{m.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:{{m.mail}}" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <h1>Web Team</h1>
-        <div class="row">
-            <div class="col-md-3 col-sm-12">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/manish.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Manish Kumar Das</h3>
-                        <span class="post">Web Head</span>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/tejas.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Tejas Ambhore</h3>
-                        <span class="post">Web Team Member</span>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/ankit.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Ankit Garg</h3>
-                        <span class="post">Web Team Member</span>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="my-team">
-                    <div class="pic">
-                        <img src="public/images/team/shubham.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Shubham Kumar</h3>
-                        <span class="post">Web Team Member</span>
-                        <ul class="social">
-                            <li><a href="https://www.facebook.com/iammkdmanish/" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/in/manishkumardas3581321/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="mailto:ammanishkumardas@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
-          
-        </div>
+        </section>
     </div>
-    </div>
+    
     <div class="row" id="footer" data-scroll-section>
         <div class="footer-flex">
           <div class="footer-23">
             <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
               <h4>Important Links</h4>
               <a target="_blank" href="https://www.ted.com/">TED</a><br />
-              <a
-                target="_blank"
-                href="https://www.ted.com/about/programs-initiatives/tedx-program"
-                >TEDx</a
-              ><br />
+              <a target="_blank" href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a><br />
               <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
             </div>
             <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
               <h4>Follow Us</h4>
-              <a
-                target="_blank"
-                href="https://www.facebook.com/TEDxIITKharagpur/"
-                ><i class="fa fa-facebook"></i
-              ></a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/company/tedx-iit-kharagpur/?originalSubdomain=in"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/tedxiitkharagpur/"
-                ><i class="fa fa-instagram"></i
-              ></a>
+              <a target="_blank" href="https://www.facebook.com/TEDxIITKharagpur/"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/tedx-iit-kharagpur/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" href="https://www.instagram.com/tedxiitkharagpur/"><i class="fa fa-instagram"></i></a>
             </div>
             <div class="col-sm-12 col-md-4" style="margin-bottom: 30px">
               <h4>Current License Holder</h4>
-              <span>Gayatriamulya Viswanathan</span><br />
-              <!-- <span>+91-9421418202</span><br> -->
-              <!-- <a target="_blank" href="mailto:7yashjadhav@gmail.com "><i class="fa fa-envelope"></i></a> -->
-              <!-- <a
-                target="_blank"
-                href="https://www.facebook.com/harshal.gaikwad.33865"
-                ><i class="fa fa-facebook"></i
-              ></a> -->
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/gayatriamulya-viswanathan-9b950b233/"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-              <div>Contact No. - +91 73375 37840</div>
+              <span>Surekha</span><br />
+              <a target="_blank" href="https://www.linkedin.com/in/surekha-b055392ab/"><i class="fa fa-linkedin"></i></a>
+              <div>Contact No. - +91 63506 03609</div>
             </div>
           </div>
           <div class="col-sm-12 col-md-4 footer-13">
@@ -305,7 +382,6 @@
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799"
               height="125"
               frameborder="0"
-              style="border: 0; width: 100%"
               style="border: 2px solid rgba(255, 0, 0, 0.719); width: 100%"
               allowfullscreen
             ></iframe>
@@ -315,12 +391,13 @@
         <div style="display: flex; width: 100vw">
           <div style="margin-right: auto; display: flex" class="col-sm-12">
             <h6>
-              &nbsp;&nbsp;&nbsp;&copy; Copyright 2024. This independent TEDx event
+              &nbsp;&nbsp;&nbsp;&copy; Copyright 2025. This independent TEDx event
               is operated under license from TED.
             </h6>
           </div>
         </div>
-      </div>
+    </div>
+
     <script type="text/javascript" src="external/js/jquery.min.js"></script>
     <script type="text/javascript" src="external/js/popper.min.js"></script>
     <script type="text/javascript" src="external/js/bootstrap.min.js"></script>
