@@ -1,0 +1,206 @@
+{
+    "scoordies": [
+		{
+			"name": "Lavesh Kasodekar",
+			"fb": "",
+			"insta": "",
+			"des": "Co-Organizer",
+			"linkedin": "https://www.linkedin.com/in/lavesh-kasodekar-a50b69218/",
+			"image": "Lavesh.jpeg",
+			"mail": ""
+		},
+        {
+			"name": "Yash Jadhav",
+			"fb": "",
+			"insta": "",
+			"des": "Senior Core Team Coordinator",
+			"linkedin": "https://www.linkedin.com/in/yash-jadhav-305711204/",
+			"image": "Yash.jpg",
+			"mail": ""
+		},
+        {
+			"name": "Tejas Ambhore",
+			"fb": "",
+			"insta": "",
+			"des": "Senior Web Team Coordinator",
+			"linkedin": "https://www.linkedin.com/in/tejas-ambhore-3634ba206/overlay/photo/",
+			"image": "Tejas.jpeg",
+			"mail": ""
+		}
+
+    ],
+	"coordinators": [
+		{
+			"name": "Gayatriamulya Viswanathan",
+			"fb": "https://www.facebook.com/profile.php?id=100074076524803",
+			"insta": "",
+			"des": "Current Licensee Holder",
+			"linkedin": "https://www.linkedin.com/in/gayatriamulya-viswanathan-9b950b233/",
+			"image": "Gayatriamulya.jpg",
+			"mail": "v.gayatriamulya@gmail.com",
+			"corhead": "c"
+		},
+		{
+			"name": "Mann Patel",
+			"fb": "https://www.facebook.com/profile.php?id=100011753483418&mibextid=ZbWKwL",
+			"insta": "https://www.instagram.com/mann_patel25?igsh=bXB0MjJvZzNqdWh4",
+			"des": "Sponsorships and Finance Team Coordinator",
+			"linkedin": "https://www.linkedin.com/in/mann-patel-33a9b5226/",
+			"image": "Mann.jpg",
+			"mail": "patel.mann.out@gmail.com",
+			"corhead": "c"
+		},
+		{
+			"name": "Ramavathu Sashank Rathod",
+			"fb": "https://www.facebook.com/profile.php?id=100075840874589&mibextid=ZbWKwL",
+			"insta": "",
+			"des": "Sponsorships and Finance Team Coordinator",
+			"linkedin": "",
+			"image": "Sashank.jpg",
+			"mail": "sashankrathod.TEDx@gmail.com",
+			"corhead": "c"
+		},
+        {
+			"name": "Shubhangi Singh",
+			"fb": "",
+			"insta": "",
+			"des": "Publicity Team Coordinator",
+			"linkedin": "",
+			"image": "Shubhangi.jpg",
+			"mail": "",
+			"corhead": "c"
+		},
+        {
+			"name": "Siddharth Sabhari Shankar",
+			"fb": "https://www.facebook.com/siddharth.sabharishankar/",
+			"insta": "",
+			"des": "Curation and Logistics Team Coordinator",
+			"linkedin": "https://www.linkedin.com/in/siddharth-sabhari-shankar-56175b318/",
+			"image": "Siddharth-S-21IM30019.jpg",
+			"mail": "siddharth.s.iitkgp@gmail.com",
+			"corhead": "c"
+		},
+		{
+			"name": "Sahil Wakode",
+			"fb": "https://www.facebook.com/profile.php?id=100076748190711",
+			"insta": "https://www.instagram.com/sahil6_007/",
+			"des": "Web Team Coordinator",
+			"linkedin": "https://www.linkedin.com/in/sahilwakode/",
+			"image": "Sahil.jpg",
+			"mail": "sahilwakode007@gmail.com",
+			"corhead": "c"
+		},
+		{
+			"name": "Priyanshu Kumar",
+			"des": "Design and Media Coordinator",
+			"fb": "https://www.facebook.com/priyanshu.priyadarshi.564?mibextid=ZbWKwL",
+			"insta": "",
+			"linkedin": "https://www.linkedin.com/in/priyanshu-kumar-09aa06208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"image": "Priyanshu.jpg",
+			"mail": "priyanshukumar.iitkgp@gmail.com",
+			"corhead": "c"
+		},
+        {
+			"name": "D Bhagirathi",
+			"des": "Design and Media Coordinator",
+			"fb": "",
+			"insta": "",
+			"linkedin": "",
+			"image": "Bhagirathi.jpg",
+			"mail": "",
+			"corhead": "c"
+		}
+	],
+    "heads": [
+        {
+			"name": "Koushiki Mridha",
+			"fb": "https://www.facebook.com/profile.php?id=100010590158130&mibextid=LQQJ4d",
+			"insta": "https://www.instagram.com/_kartier_klass?igsh=MWVkN3Z2NTZ3eHNyNA%3D%3D&utm_source=qr",
+			"des": "Sponsorships and Finance Team Head",
+			"linkedin": "http://linkedin.com/in/koushikimridha",
+			"image": "Koushiki.jpg",
+			"mail": "",
+			"corhead": "h"
+		},
+        {
+			"name": "Sanchay Baranwal",
+			"fb": "https://www.facebook.com/profile.php?id=100087744332005&mibextid=ZbWKwL",
+			"insta": "https://instagram.com/baranwalsanchay01?igshid=NGVhN2U2NjQ0Yg==",
+			"des": "Curation and Logistics Team Head",
+			"linkedin": "www.linkedin.com/in/sanchay-baranwal",
+			"image": "Sanchay.jpg",
+			"mail": "baranwalsanchay01@gmail.com",
+			"corhead": "h"
+		},
+        {
+			"name": "Shubham Pingale",
+			"fb": "",
+			"insta": "https://www.instagram.com/alwayz_shubh?igsh=MTFvb2I2MzAxZm5icg==",
+			"des": "Curation and Logistics Team Head",
+			"linkedin": "https://www.linkedin.com/in/shubham-pingale-iit/",
+			"image": "Shubham.jpg",
+			"mail": "shubham.pingale.iitkgp@gmail.com",
+			"corhead": "h"
+		},
+        {
+			"name": "Sudhagani Praneeth Kumar",
+			"fb": "",
+			"insta": "https://www.instagram.com/praneeth_1610/",
+			"des": "Production and Publicity Team Head",
+			"linkedin": "https://in.linkedin.com/in/praneeth-kumar-sudhagani-7174b726b",
+			"image": "Praneeth.jpg",
+			"mail": "sudhaganipraneethkumar@gmail.com",
+			"corhead": "h"
+		},
+		{
+			"name": "Bhagya Jyothi",
+			"fb": "",
+			"insta": "https://www.instagram.com/bhagyajyothi_34?igsh=MXduNHYwYWNrcHMzdQ==",
+			"des": "Production and Publicity Team Head",
+			"linkedin": "https://www.linkedin.com/in/bhagya-jyothi-656b85273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"image": "Bhagya.jpg",
+			"mail": "bhagyajyothi03042004@gmail.com",
+			"corhead": "h"
+		},
+        {
+			"name": "Vaishnavi Gupta",
+			"fb": "",
+			"insta": "",
+			"des": "Sponsorships and Finance Team Head",
+			"linkedin": "",
+			"image": "Vaishnavi.png",
+			"mail": "",
+			"corhead": "h"
+		},
+        {
+			"name": "Pranathi Taddi",
+			"fb": "https://www.facebook.com/profile.php?id=100094756901380",
+			"insta": "https://www.instagram.com/pranathitaddi/",
+			"des": "Web Team Head",
+			"linkedin": "https://www.linkedin.com/in/pranathi-taddi-662ab027b/",
+			"image": "Pranathi.jpg",
+			"mail": "",
+			"corhead": "h"
+		},
+        {
+			"name": "Arpita Gupta",
+			"des": "Design and Media Head",
+			"fb": "",
+			"insta": "https://www.instagram.com/arupitaaa_?igsh=MWc5Ynd4bHNwNXl6cg==",
+			"linkedin": "https://www.linkedin.com/in/arpita-gupta-31a721250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"image": "Arpita_.jpg",
+			"mail": "arpitag311126@gmail.com",
+			"corhead": "h"
+		},
+        {
+			"name": "Bhuvan Raj Guguloth",
+			"des": "Design and Media Head",
+			"fb": "",
+			"insta": "https://www.instagram.com/bhuvanraj.05/",
+			"linkedin": "https://www.linkedin.com/in/bhuvanrajguguloth05/",
+			"image": "Bhuvan.jpg",
+			"mail": "bhuvanrajnaik@gmail.com",
+			"corhead": "h"
+		}
+    ]
+}
