@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#a51e15" />
     <title>TEDxIITKharagpur | 2025</title>
+    <meta name="description"
+        content="Official TEDx IIT Kharagpur event — celebrating innovation, creativity, and ideas worth spreading at IIT Kharagpur. Join us for inspiring talks and performances.">
+    <meta name="keywords"
+        content="TEDx IIT Kharagpur, TEDxIITKharagpur, TEDx IITKGP, TEDx Kharagpur, TEDx India, TEDx IIT, Ideas Worth Spreading">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="TEDx IIT Kharagpur Team">
+    <link rel="canonical" href="https://tedxiitkharagpur.org/" />
+
     <link rel="icon" href="public/images/icon.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
+    
     <style>
         body {
             background: #0a0a0a;
@@ -113,7 +123,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.8) 100%);
+            background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
             opacity: 0.6;
             transition: opacity 0.4s ease;
         }
@@ -196,7 +206,7 @@
         }
 
         .social-icon.fa-instagram:hover {
-            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
             border-color: #e6683c;
         }
 
@@ -269,12 +279,17 @@
             margin: 0 10px;
         }
     </style>
+
+    
 </head>
+
 <body ng-app="app">
     <div class="navbarr sticky-top navbar-expand-lg navbar-dark bg-dark topNav">
-        <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt="" title="TEDxIITKharagpur"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav" aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="index.html#themeDiv"><img width="150" src="public/images/TEDx White.png" alt=""
+                title="TEDxIITKharagpur"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav"
+            aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="space"></div>
@@ -298,37 +313,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scrollable" href="index.html#getInvolved">Get Involved</a>
-                </li> 
+                </li>
             </ul>
         </div>
     </div>
 
     <div ng-controller="teamController">
-        <!-- Coordinators Section -->
-        <section class="team-section">
-            <h1 class="section-title"><span class="emphasis">Coordinators</span></h1>
-            <div class="team-grid">
-                <div ng-repeat="m in coordinatorsteam">
-                    <div class="team-card">
-                        <div class="card-image-wrapper">
-                            <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
-                            <div class="card-overlay"></div>
-                        </div>
-                        <div class="card-content">
-                            <h3 class="member-name">{{m.name}}</h3>
-                            <span class="member-role">{{m.des || "Team Member"}}</span>
-                            <ul class="social-links">
-                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank" class="social-icon fa fa-facebook"></a></li>
-                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank" class="social-icon fa fa-linkedin"></a></li>
-                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank" class="social-icon fa fa-instagram"></a></li>
-                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank" class="social-icon fa fa-envelope"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <!-- Heads Section -->
         <section class="team-section">
             <h1 class="section-title"><span class="emphasis">Heads</span></h1>
@@ -343,58 +333,94 @@
                             <h3 class="member-name">{{m.name}}</h3>
                             <span class="member-role">{{m.des || "Team Member"}}</span>
                             <ul class="social-links">
-                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank" class="social-icon fa fa-facebook"></a></li>
-                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank" class="social-icon fa fa-linkedin"></a></li>
-                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank" class="social-icon fa fa-instagram"></a></li>
-                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank" class="social-icon fa fa-envelope"></a></li>
+                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank"
+                                        class="social-icon fa fa-facebook"></a></li>
+                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank"
+                                        class="social-icon fa fa-linkedin"></a></li>
+                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank"
+                                        class="social-icon fa fa-instagram"></a></li>
+                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank"
+                                        class="social-icon fa fa-envelope"></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Coordinators Section -->
+        <section class="team-section">
+            <h1 class="section-title"><span class="emphasis">Coordinators</span></h1>
+            <div class="team-grid">
+                <div ng-repeat="m in coordinatorsteam">
+                    <div class="team-card">
+                        <div class="card-image-wrapper">
+                            <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="member-name">{{m.name}}</h3>
+                            <span class="member-role">{{m.des || "Team Member"}}</span>
+                            <ul class="social-links">
+                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank"
+                                        class="social-icon fa fa-facebook"></a></li>
+                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank"
+                                        class="social-icon fa fa-linkedin"></a></li>
+                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank"
+                                        class="social-icon fa fa-instagram"></a></li>
+                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank"
+                                        class="social-icon fa fa-envelope"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
-    
+
     <div class="row" id="footer" data-scroll-section>
         <div class="footer-flex">
-          <div class="footer-23">
-            <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
-              <h4>Important Links</h4>
-              <a target="_blank" href="https://www.ted.com/">TED</a><br />
-              <a target="_blank" href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a><br />
-              <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
+            <div class="footer-23">
+                <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
+                    <h4>Important Links</h4>
+                    <a target="_blank" href="https://www.ted.com/">TED</a><br />
+                    <a target="_blank" href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx</a><br />
+                    <a target="_blank" href="https://blog.ted.com/">TED Blog</a>
+                </div>
+                <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
+                    <h4>Follow Us</h4>
+                    <a target="_blank" href="https://www.facebook.com/TEDxIITKharagpur/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a target="_blank"
+                        href="https://www.linkedin.com/company/tedx-iit-kharagpur/?originalSubdomain=in"><i
+                            class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/tedxiitkharagpur/"><i
+                            class="fa fa-instagram"></i></a>
+                </div>
+                <div class="col-sm-12 col-md-4" style="margin-bottom: 30px">
+                    <h4>Current License Holder</h4>
+                    <span>Surekha</span><br />
+                    <a target="_blank" href="https://www.linkedin.com/in/surekha-b055392ab/"><i
+                            class="fa fa-linkedin"></i></a>
+                    <div>Contact No. - +91 63506 03609</div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4" style="margin-bottom: 20px">
-              <h4>Follow Us</h4>
-              <a target="_blank" href="https://www.facebook.com/TEDxIITKharagpur/"><i class="fa fa-facebook"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/company/tedx-iit-kharagpur/?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
-              <a target="_blank" href="https://www.instagram.com/tedxiitkharagpur/"><i class="fa fa-instagram"></i></a>
+            <div class="col-sm-12 col-md-4 footer-13">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799"
+                    height="125" frameborder="0" style="border: 2px solid rgba(255, 0, 0, 0.719); width: 100%"
+                    allowfullscreen></iframe>
             </div>
-            <div class="col-sm-12 col-md-4" style="margin-bottom: 30px">
-              <h4>Current License Holder</h4>
-              <span>Surekha</span><br />
-              <a target="_blank" href="https://www.linkedin.com/in/surekha-b055392ab/"><i class="fa fa-linkedin"></i></a>
-              <div>Contact No. - +91 63506 03609</div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4 footer-13">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0241239415004!2d87.3083424144638!3d22.314927385315958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d440255555547%3A0x6f2f20dd0c0d6793!2sIndian+Institute+of+Technology+Kharagpur!5e0!3m2!1sen!2sin!4v1510111851799"
-              height="125"
-              frameborder="0"
-              style="border: 2px solid rgba(255, 0, 0, 0.719); width: 100%"
-              allowfullscreen
-            ></iframe>
-          </div>
         </div>
         <hr />
         <div style="display: flex; width: 100vw">
-          <div style="margin-right: auto; display: flex" class="col-sm-12">
-            <h6>
-              &nbsp;&nbsp;&nbsp;&copy; Copyright 2025. This independent TEDx event
-              is operated under license from TED.
-            </h6>
-          </div>
+            <div style="margin-right: auto; display: flex" class="col-sm-12">
+                <h6>
+                    &nbsp;&nbsp;&nbsp;&copy; Copyright 2025. This independent TEDx event
+                    is operated under license from TED.
+                </h6>
+            </div>
         </div>
     </div>
 
@@ -404,4 +430,5 @@
     <script type="text/javascript" src="external/js/angular.min.js"></script>
     <script type="text/javascript" src="public/js/index.js"></script>
 </body>
+
 </html>
