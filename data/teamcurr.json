@@ -91,8 +91,8 @@
 			"corhead": "c"
 		}
 	],
-    "heads": [
-        {
+	"heads": [
+		{
 			"name": "Surekha",
 			"fb": "https://www.facebook.com/share/1a6z41yHB9/",
 			"insta": "",
@@ -111,8 +111,8 @@
 			"image": "Aadil.jpg",
 			"mail": "mulaniaadil.tedxiitkgp@gmail.com",
 			"corhead": "h"
-		}
-		,{
+		},
+		{
 			"name": "Sujesh Sheshadri",
 			"fb": "https://www.facebook.com/share/16EQGeW5hh/",
 			"insta": "",
@@ -122,7 +122,7 @@
 			"mail": "sujesh.sheshadri@kgpian.iitkgp.ac.in",
 			"corhead": "h"
 		},
-        {
+		{
 			"name": "Nikita Pavle",
 			"fb": "",
 			"insta": "https://www.instagram.com/_.nikflixx_?igsh=Mm83YzlnaWQzejBk",
@@ -132,8 +132,7 @@
 			"mail": "nikitapavle1@gmail.com",
 			"corhead": "h"
 		},
-        
-        {
+		{
 			"name": "Sayan Ghosh",
 			"fb": "https://www.facebook.com/profile.php?id=100070934447667",
 			"insta": "https://www.instagram.com/sayyyyaan",
@@ -141,6 +140,16 @@
 			"linkedin": "https://www.linkedin.com/in/sayan-ghosh-6b173528a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 			"image": "Sayan.jpg",
 			"mail": "sayan001@kgpian.iitkgp.ac.in",
+			"corhead": "h"
+		},
+		{
+			"name": "Kajal Choudhary ",
+			"des": "Design and Media Head",
+			"fb": "https://www.facebook.com/profile.php?id=61559785183287",
+			"insta": "https://www.instagram.com/kajalchoudhary_06/",
+			"linkedin": "https://www.linkedin.com/in/kajal-choudhary-2b5826298",
+			"image": "Kajal.jpg",
+			"mail": "kajalchoudhary96722@gmail.com",
 			"corhead": "h"
 		},
 		   
@@ -153,16 +162,6 @@
 			"image": "Arka.jpg",
 			"mail": "arkaghosh9832@gmail.com",
 			"corhead": "h"
-		},
-        {
-			"name": "Kajal Choudhary ",
-			"des": "Design and Media Head",
-			"fb": "https://www.facebook.com/profile.php?id=61559785183287",                                                        
-			"insta": "https://www.instagram.com/kajalchoudhary_06/",
-			"linkedin": "https://www.linkedin.com/in/kajal-choudhary-2b5826298",
-			"image": "Kajal.jpg",
-			"mail": "kajalchoudhary96722@gmail.com",
-			"corhead": "h"
 		}
-  ]
+	]
 }
