@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="external/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
-    
+
     <style>
         body {
             background: #0a0a0a;
@@ -54,13 +54,24 @@
             border-radius: 2px;
         }
 
-        .team-grid {
+        /* .team-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 40px;
             max-width: 1400px;
             margin: 0 auto;
+        } */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+            /* Changed from 1fr to 320px */
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+            justify-content: center;
+            /* Center the cards when there are fewer items */
         }
+
 
         .team-card {
             background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
@@ -280,7 +291,7 @@
         }
     </style>
 
-    
+
 </head>
 
 <body ng-app="app">
@@ -319,6 +330,7 @@
     </div>
 
     <div ng-controller="teamController">
+
         <!-- Heads Section -->
         <section class="team-section">
             <h1 class="section-title"><span class="emphasis">Heads</span></h1>
@@ -353,6 +365,35 @@
             <h1 class="section-title"><span class="emphasis">Coordinators</span></h1>
             <div class="team-grid">
                 <div ng-repeat="m in coordinatorsteam">
+                    <div class="team-card">
+                        <div class="card-image-wrapper">
+                            <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="member-name">{{m.name}}</h3>
+                            <span class="member-role">{{m.des || "Team Member"}}</span>
+                            <ul class="social-links">
+                                <li ng-if="m.fb"><a href="{{m.fb}}" target="_blank"
+                                        class="social-icon fa fa-facebook"></a></li>
+                                <li ng-if="m.linkedin"><a href="{{m.linkedin}}" target="_blank"
+                                        class="social-icon fa fa-linkedin"></a></li>
+                                <li ng-if="m.insta"><a href="{{m.insta}}" target="_blank"
+                                        class="social-icon fa fa-instagram"></a></li>
+                                <li ng-if="m.mail"><a href="mailto:{{m.mail}}" target="_blank"
+                                        class="social-icon fa fa-envelope"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Senior Coordinators Section -->
+        <section class="team-section">
+            <h1 class="section-title"><span class="emphasis"> Senior Coordinators</span></h1>
+            <div class="team-grid">
+                <div ng-repeat="m in scoordiesteam">
                     <div class="team-card">
                         <div class="card-image-wrapper">
                             <img src="public/images/currTeam/{{m.image}}" alt="{{m.name}}" class="card-image">
