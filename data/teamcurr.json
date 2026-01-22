@@ -96,7 +96,7 @@
 			"name": "Surekha",
 			"fb": "https://www.facebook.com/share/1a6z41yHB9/",
 			"insta": "",
-			"des": "Licensee",
+			"des": "Current Licensee Holder",
 			"linkedin": "https://www.linkedin.com/in/surekha-b055392ab/",
 			"image": "Surekha.jpg",
 			"mail": "surekhabaindha@gmail.com",
@@ -152,8 +152,7 @@
 			"mail": "kajalchoudhary96722@gmail.com",
 			"corhead": "h"
 		},
-		   
-        {
+		{
 			"name": "Arka Ghosh",
 			"fb": "https://www.facebook.com/share/17S1w5LMev/",
 			"insta": "https://www.instagram.com/arkaghosh03/",
@@ -162,6 +161,28 @@
 			"image": "Arka.jpg",
 			"mail": "arkaghosh9832@gmail.com",
 			"corhead": "h"
+		}
+	],
+	"scoordies": [
+		{
+			"name": "Sahil Khushal Wakode",
+			"des": "Senior Web Team Coordinator",
+			"fb": "https://www.facebook.com/profile.php?id=100076748190711",
+			"insta": "https://www.instagram.com/sahil6_007/",
+			"linkedin": "https://www.linkedin.com/in/sahilwakode/",
+			"image": "Sahil.jpg",
+			"mail": "sahilwakode007@gmail.com",
+			"corhead": "s"
+		},
+		{
+			"name": "Ramavathu Sashank Rathod",
+			"fb": "https://www.facebook.com/profile.php?id=100075840874589&mibextid=ZbWKwL",
+			"insta": "",
+			"des": "Sponsorships and Finance Team Coordinator",
+			"linkedin": "",
+			"image": "Sashank.jpg",
+			"mail": "sashankrathod.TEDx@gmail.com",
+			"corhead": "s"
 		}
 	]
 }
